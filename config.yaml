@@ -1,8 +1,8 @@
-baseurl: https://example.com
+baseurl: https://amblog-amblog.netlify.app
 languageCode: en-us
 theme: "hugo-theme-stack"
 paginate: 5
-title: Example Site
+title: Bio
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
@@ -35,10 +35,11 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: Currently Master's Student Genomic Data Science @UNIPV (IT) and
+                    previously Research Assistant @UH (FI) and MSc Pharmacy@UNIPV (IT) 
         avatar:
             local: true
-            src: img/avatar.png
+            src: img/andrea_4.png
 
     article:
         math: false
@@ -75,8 +76,8 @@ params:
     opengraph:
         twitter:
             # Your Twitter username
-            site:
-
+            site: https://twitter.com/Andrea1Mariani
+ 
             # Available values: summary, summary_large_image
             card: summary_large_image
 
@@ -108,7 +109,7 @@ menu:
           pre: home
 
         - identifier: about
-          name: About
+          name: About Me
           url: about
           weight: -90
           pre: user

@@ -2,111 +2,111 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://amblog-amblog.netlify.app/about-me/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://amblog-amblog.netlify.app/</loc>
+    <loc>https://anderson-blog.netlify.app/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/categories/</loc>
+    <loc>https://anderson-blog.netlify.app/categories/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/p/new-test-for-post/</loc>
+    <loc>https://anderson-blog.netlify.app/p/new-test-for-post/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/page/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://amblog-amblog.netlify.app/post/</loc>
+    <loc>https://anderson-blog.netlify.app/post/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/tags/</loc>
+    <loc>https://anderson-blog.netlify.app/tags/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/tags/test-with-whitespaces/</loc>
+    <loc>https://anderson-blog.netlify.app/tags/test-with-whitespaces/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/categories/text/</loc>
+    <loc>https://anderson-blog.netlify.app/categories/text/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/tags/text/</loc>
+    <loc>https://anderson-blog.netlify.app/tags/text/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/p/hello-r-markdown/</loc>
+    <loc>https://anderson-blog.netlify.app/p/hello-r-markdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/tags/plot/</loc>
+    <loc>https://anderson-blog.netlify.app/tags/plot/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/categories/r/</loc>
+    <loc>https://anderson-blog.netlify.app/categories/r/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/tags/r-markdown/</loc>
+    <loc>https://anderson-blog.netlify.app/tags/r-markdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/tags/regression/</loc>
+    <loc>https://anderson-blog.netlify.app/tags/regression/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/p/test-chinese/</loc>
+    <loc>https://anderson-blog.netlify.app/p/test-chinese/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/categories/test/</loc>
+    <loc>https://anderson-blog.netlify.app/categories/test/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://anderson-blog.netlify.app/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/archives/</loc>
+    <loc>https://anderson-blog.netlify.app/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/tags/css/</loc>
+    <loc>https://anderson-blog.netlify.app/page/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anderson-blog.netlify.app/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/tags/html/</loc>
+    <loc>https://anderson-blog.netlify.app/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/tags/markdown/</loc>
+    <loc>https://anderson-blog.netlify.app/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/p/markdown-syntax-guide/</loc>
+    <loc>https://anderson-blog.netlify.app/p/markdown-syntax-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/categories/syntax/</loc>
+    <loc>https://anderson-blog.netlify.app/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/tags/themes/</loc>
+    <loc>https://anderson-blog.netlify.app/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/categories/themes/</loc>
+    <loc>https://anderson-blog.netlify.app/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/tags/privacy/</loc>
+    <loc>https://anderson-blog.netlify.app/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/p/rich-content/</loc>
+    <loc>https://anderson-blog.netlify.app/p/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/tags/shortcodes/</loc>
+    <loc>https://anderson-blog.netlify.app/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/p/placeholder-text/</loc>
+    <loc>https://anderson-blog.netlify.app/p/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/tags/tag-with-whitespaces/</loc>
+    <loc>https://anderson-blog.netlify.app/tags/tag-with-whitespaces/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/categories/test-with-whitespaces/</loc>
+    <loc>https://anderson-blog.netlify.app/categories/test-with-whitespaces/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/p/math-typesetting/</loc>
+    <loc>https://anderson-blog.netlify.app/p/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/tags/emoji/</loc>
+    <loc>https://anderson-blog.netlify.app/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/p/emoji-support/</loc>
+    <loc>https://anderson-blog.netlify.app/p/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amblog-amblog.netlify.app/search/</loc>
+    <loc>https://anderson-blog.netlify.app/about-me/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anderson-blog.netlify.app/search/</loc>
   </url>
 </urlset>

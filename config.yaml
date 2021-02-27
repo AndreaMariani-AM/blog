@@ -1,4 +1,4 @@
-baseurl: https://amblog-amblog.netlify.app
+baseurl: https://anderson-blog.netlify.app
 languageCode: en-us
 theme: "hugo-theme-stack"
 paginate: 5

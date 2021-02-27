@@ -2,125 +2,125 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Bio</title>
-    <link>https://amblog-amblog.netlify.app/tags/</link>
+    <link>https://anderson-blog.netlify.app/tags/</link>
     <description>Recent content in Tags on Bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://amblog-amblog.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anderson-blog.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test with whitespaces</title>
-      <link>https://amblog-amblog.netlify.app/tags/test-with-whitespaces/</link>
+      <link>https://anderson-blog.netlify.app/tags/test-with-whitespaces/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://amblog-amblog.netlify.app/tags/test-with-whitespaces/</guid>
+      <guid>https://anderson-blog.netlify.app/tags/test-with-whitespaces/</guid>
       <description></description>
     </item>
     
     <item>
       <title>text</title>
-      <link>https://amblog-amblog.netlify.app/tags/text/</link>
+      <link>https://anderson-blog.netlify.app/tags/text/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://amblog-amblog.netlify.app/tags/text/</guid>
+      <guid>https://anderson-blog.netlify.app/tags/text/</guid>
       <description></description>
     </item>
     
     <item>
       <title>plot</title>
-      <link>https://amblog-amblog.netlify.app/tags/plot/</link>
+      <link>https://anderson-blog.netlify.app/tags/plot/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>https://amblog-amblog.netlify.app/tags/plot/</guid>
+      <guid>https://anderson-blog.netlify.app/tags/plot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>https://amblog-amblog.netlify.app/tags/r-markdown/</link>
+      <link>https://anderson-blog.netlify.app/tags/r-markdown/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>https://amblog-amblog.netlify.app/tags/r-markdown/</guid>
+      <guid>https://anderson-blog.netlify.app/tags/r-markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>regression</title>
-      <link>https://amblog-amblog.netlify.app/tags/regression/</link>
+      <link>https://anderson-blog.netlify.app/tags/regression/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>https://amblog-amblog.netlify.app/tags/regression/</guid>
+      <guid>https://anderson-blog.netlify.app/tags/regression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>css</title>
-      <link>https://amblog-amblog.netlify.app/tags/css/</link>
+      <link>https://anderson-blog.netlify.app/tags/css/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://amblog-amblog.netlify.app/tags/css/</guid>
+      <guid>https://anderson-blog.netlify.app/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>html</title>
-      <link>https://amblog-amblog.netlify.app/tags/html/</link>
+      <link>https://anderson-blog.netlify.app/tags/html/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://amblog-amblog.netlify.app/tags/html/</guid>
+      <guid>https://anderson-blog.netlify.app/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>markdown</title>
-      <link>https://amblog-amblog.netlify.app/tags/markdown/</link>
+      <link>https://anderson-blog.netlify.app/tags/markdown/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://amblog-amblog.netlify.app/tags/markdown/</guid>
+      <guid>https://anderson-blog.netlify.app/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>https://amblog-amblog.netlify.app/tags/themes/</link>
+      <link>https://anderson-blog.netlify.app/tags/themes/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://amblog-amblog.netlify.app/tags/themes/</guid>
+      <guid>https://anderson-blog.netlify.app/tags/themes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>privacy</title>
-      <link>https://amblog-amblog.netlify.app/tags/privacy/</link>
+      <link>https://anderson-blog.netlify.app/tags/privacy/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://amblog-amblog.netlify.app/tags/privacy/</guid>
+      <guid>https://anderson-blog.netlify.app/tags/privacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shortcodes</title>
-      <link>https://amblog-amblog.netlify.app/tags/shortcodes/</link>
+      <link>https://anderson-blog.netlify.app/tags/shortcodes/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://amblog-amblog.netlify.app/tags/shortcodes/</guid>
+      <guid>https://anderson-blog.netlify.app/tags/shortcodes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tag with whitespaces</title>
-      <link>https://amblog-amblog.netlify.app/tags/tag-with-whitespaces/</link>
+      <link>https://anderson-blog.netlify.app/tags/tag-with-whitespaces/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://amblog-amblog.netlify.app/tags/tag-with-whitespaces/</guid>
+      <guid>https://anderson-blog.netlify.app/tags/tag-with-whitespaces/</guid>
       <description></description>
     </item>
     
     <item>
       <title>emoji</title>
-      <link>https://amblog-amblog.netlify.app/tags/emoji/</link>
+      <link>https://anderson-blog.netlify.app/tags/emoji/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://amblog-amblog.netlify.app/tags/emoji/</guid>
+      <guid>https://anderson-blog.netlify.app/tags/emoji/</guid>
       <description></description>
     </item>
     

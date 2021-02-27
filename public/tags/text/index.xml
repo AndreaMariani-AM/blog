@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>text on Bio</title>
-    <link>https://amblog-amblog.netlify.app/tags/text/</link>
+    <link>https://anderson-blog.netlify.app/tags/text/</link>
     <description>Recent content in text on Bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://amblog-amblog.netlify.app/tags/text/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anderson-blog.netlify.app/tags/text/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New test for post</title>
-      <link>https://amblog-amblog.netlify.app/p/new-test-for-post/</link>
+      <link>https://anderson-blog.netlify.app/p/new-test-for-post/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://amblog-amblog.netlify.app/p/new-test-for-post/</guid>
+      <guid>https://anderson-blog.netlify.app/p/new-test-for-post/</guid>
       <description>This is just a test to see how it looks when i make a single text file.</description>
     </item>
     
     <item>
       <title>Placeholder Text</title>
-      <link>https://amblog-amblog.netlify.app/p/placeholder-text/</link>
+      <link>https://anderson-blog.netlify.app/p/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://amblog-amblog.netlify.app/p/placeholder-text/</guid>
+      <guid>https://anderson-blog.netlify.app/p/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
     

@@ -5,10 +5,10 @@ aliases:
 - contact
 author: Hugo Authors
 date: "2019-02-28"
-description: 
-lastmod: "2021-02-27"
+description: Hugo, the world's fastest framework for building websites
+lastmod: "2020-10-09"
 license: CC BY-NC-ND
-title: About Me
+title: About
 ---
 
-Wanna know bout me? jfpsjpfew fwfreufh ehw9fe9ijowj 
+Wanna know bout me?

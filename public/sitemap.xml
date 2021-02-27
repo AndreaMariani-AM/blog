@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://anderson-blog.netlify.app/about/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://anderson-blog.netlify.app/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,6 +12,9 @@
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anderson-blog.netlify.app/p/new-test-for-post/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anderson-blog.netlify.app/page/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anderson-blog.netlify.app/post/</loc>
@@ -52,9 +58,6 @@
   </url><url>
     <loc>https://anderson-blog.netlify.app/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anderson-blog.netlify.app/page/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anderson-blog.netlify.app/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
@@ -103,9 +106,6 @@
   </url><url>
     <loc>https://anderson-blog.netlify.app/p/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anderson-blog.netlify.app/about-me/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anderson-blog.netlify.app/search/</loc>
   </url>

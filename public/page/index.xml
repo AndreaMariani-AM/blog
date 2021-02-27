@@ -6,7 +6,16 @@
     <description>Recent content in Pages on Bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://amblog-amblog.netlify.app/page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://amblog-amblog.netlify.app/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://amblog-amblog.netlify.app/about-me/</link>
+      <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://amblog-amblog.netlify.app/about-me/</guid>
+      <description>Sup! Happy you&amp;rsquo;ve stumbled upon this blog, bear with me and come along for the ride as I introduce to you my very ordinary life and the reason why I&amp;rsquo;ve decided to open this blog. First things first, my name&amp;rsquo;s Andrea, Italian boy by birth, I&amp;rsquo;ve studied Pharmacy in Italy and worked for a bit in Helsinki (y&amp;rsquo;all need to check out that place, seriously stunning). In Helsinki, I came in contact, for the first time, with the bioinformatics/computational biology field when I was working on data from RNA-seq experiments and thought &amp;ldquo;this is it, I like this stuff&amp;rdquo;.</description>
+    </item>
+    
     <item>
       <title>Archives</title>
       <link>https://amblog-amblog.netlify.app/archives/</link>
@@ -14,15 +23,6 @@
       
       <guid>https://amblog-amblog.netlify.app/archives/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://amblog-amblog.netlify.app/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://amblog-amblog.netlify.app/about/</guid>
-      <description>Wanna know bout me?</description>
     </item>
     
     <item>

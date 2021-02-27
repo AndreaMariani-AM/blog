@@ -6,7 +6,16 @@
     <description>Recent content in Categories on Bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://amblog-amblog.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://amblog-amblog.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Text</title>
+      <link>https://amblog-amblog.netlify.app/categories/text/</link>
+      <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://amblog-amblog.netlify.app/categories/text/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>R</title>
       <link>https://amblog-amblog.netlify.app/categories/r/</link>

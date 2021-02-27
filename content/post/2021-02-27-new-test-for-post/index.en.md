@@ -1,6 +1,6 @@
 ---
 title: New test for post
-author: Andrea Mariani
+author: R package build
 date: '2021-02-27'
 slug: new-test-for-post
 categories: ["Text"]

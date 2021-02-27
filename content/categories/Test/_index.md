@@ -1,5 +1,5 @@
 ---
-description: This is a example category
+description: This is a 
 image: hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg
 slug: test
 style:

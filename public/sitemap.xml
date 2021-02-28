@@ -8,10 +8,13 @@
     <loc>https://anderson-blog.netlify.app/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://anderson-blog.netlify.app/tags/blog/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://anderson-blog.netlify.app/categories/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anderson-blog.netlify.app/p/new-test-for-post/</loc>
+    <loc>https://anderson-blog.netlify.app/tags/hugo-themes/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anderson-blog.netlify.app/page/</loc>
@@ -20,13 +23,16 @@
     <loc>https://anderson-blog.netlify.app/post/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://anderson-blog.netlify.app/tags/setting-up-the-blog/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anderson-blog.netlify.app/categories/setting-up-the-blog/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anderson-blog.netlify.app/p/new-test-for-post/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://anderson-blog.netlify.app/tags/</loc>
-    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anderson-blog.netlify.app/tags/test-with-whitespaces/</loc>
-    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anderson-blog.netlify.app/categories/text/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anderson-blog.netlify.app/tags/text/</loc>

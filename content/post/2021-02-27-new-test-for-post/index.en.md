@@ -1,14 +1,17 @@
 ---
-title: New test for post
+title: Setting Up The Blog
 author: R package build
 date: '2021-02-27'
 slug: new-test-for-post
-categories: ["Text"]
+categories:
+- Setting Up The Blog
 tags:
-  - text
-  - Test with whitespaces
-description: ~
-image: ~
+  - Text
+  - Blog
+  - Hugo Themes
+  - Setting Up The Blog
+description: Quick tour on how i've struggled through the creation of this blog
+image: pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg
 math: ~
 license: ~
 hidden: no

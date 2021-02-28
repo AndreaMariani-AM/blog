@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>text on Bio</title>
+    <title>Text on Bio</title>
     <link>https://anderson-blog.netlify.app/tags/text/</link>
-    <description>Recent content in text on Bio</description>
+    <description>Recent content in Text on Bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anderson-blog.netlify.app/tags/text/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>New test for post</title>
+      <title>Setting Up The Blog</title>
       <link>https://anderson-blog.netlify.app/p/new-test-for-post/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
       

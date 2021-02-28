@@ -4,7 +4,7 @@ author: R package build
 date: '2021-02-27'
 slug: new-test-for-post
 categories:
-- Setting Up The Blog
+ - Test
 tags:
   - Text
   - Blog
@@ -16,5 +16,6 @@ math: ~
 license: ~
 hidden: no
 comments: yes
+
 ---
 This is just a test to see how it looks when i make a single text file.

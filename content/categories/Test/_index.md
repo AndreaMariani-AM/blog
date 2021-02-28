@@ -1,9 +1,9 @@
 ---
-description: Setting The Blog Up
+title: Setting Up The Blog
+description: Setting up the blog for the first time
 image: hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg
-slug: test
+slug: "setting"
 style:
   background: '#2a9d8f'
   color: '#fff'
-title: Setting The Blog Up
 ---

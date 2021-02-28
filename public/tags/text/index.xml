@@ -16,14 +16,5 @@
       <description>This is just a test to see how it looks when i make a single text file.</description>
     </item>
     
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://anderson-blog.netlify.app/p/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://anderson-blog.netlify.app/p/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
   </channel>
 </rss>

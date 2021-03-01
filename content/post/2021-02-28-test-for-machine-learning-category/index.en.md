@@ -6,7 +6,7 @@ slug: test-for-machine-learning-category
 categories: 
  - Test2
 tags: []
-image: neon_inscription_wall_134368_2560x1600.jpg
+image: pexels-sharon.jpg
 style:
   background: '#2a9d8f'
   color: '#fff'

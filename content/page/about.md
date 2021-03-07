@@ -19,10 +19,5 @@ Lastly, don't take this too seriously, this won't be "the ultimate super detaile
 
 This is where I plug all my social media, right? It's ok if I sell myself mom?
 
-IG : https://www.instagram.com/andrea__.mariani/
+[Instagram](https://www.instagram.com/andrea__.mariani/),  [LinkedIn](https://www.linkedin.com/in/andrea-mariani-584138175/), [GitHub](https://github.com/AndreaMariani-AM), [Twitter](https://twitter.com/Andrea1Mariani)
 
-LinkedIn : https://www.linkedin.com/in/andrea-mariani-584138175/
-
-GitHub: https://github.com/AndreaMariani-AM
-
-Twitter: https://twitter.com/Andrea1Mariani

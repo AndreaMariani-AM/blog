@@ -2,25 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://anderson-blog.netlify.app/</loc>
-    <lastmod>2021-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anderson-blog.netlify.app/categories/</loc>
-    <lastmod>2021-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anderson-blog.netlify.app/categories/test2/</loc>
-    <lastmod>2021-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anderson-blog.netlify.app/post/</loc>
-    <lastmod>2021-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anderson-blog.netlify.app/p/test-for-machine-learning-category/</loc>
-    <lastmod>2021-02-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://anderson-blog.netlify.app/about/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://anderson-blog.netlify.app/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://anderson-blog.netlify.app/tags/blog/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anderson-blog.netlify.app/categories/test/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anderson-blog.netlify.app/categories/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anderson-blog.netlify.app/tags/hugo-themes/</loc>
@@ -29,10 +23,10 @@
     <loc>https://anderson-blog.netlify.app/page/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anderson-blog.netlify.app/tags/setting-up-the-blog/</loc>
+    <loc>https://anderson-blog.netlify.app/post/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anderson-blog.netlify.app/categories/test/</loc>
+    <loc>https://anderson-blog.netlify.app/tags/setting-up-the-blog/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anderson-blog.netlify.app/p/new-test-for-post/</loc>
@@ -41,11 +35,10 @@
     <loc>https://anderson-blog.netlify.app/tags/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anderson-blog.netlify.app/tags/text/</loc>
-    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://anderson-blog.netlify.app/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anderson-blog.netlify.app/categories/test2/</loc>
   </url><url>
     <loc>https://anderson-blog.netlify.app/search/</loc>
   </url>

@@ -6,23 +6,30 @@
         <description>Recent content on Bio</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 28 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anderson-blog.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>test for machine learning category</title>
-        <link>https://anderson-blog.netlify.app/p/test-for-machine-learning-category/</link>
-        <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://anderson-blog.netlify.app/p/test-for-machine-learning-category/</guid>
-        <description>&lt;img src="https://anderson-blog.netlify.app/p/test-for-machine-learning-category/pexels-sharon.jpg" alt="Featured image of post test for machine learning category" /&gt;&lt;p&gt;Please make it happen&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anderson-blog.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Setting Up The Blog</title>
         <link>https://anderson-blog.netlify.app/p/new-test-for-post/</link>
         <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
         
         <guid>https://anderson-blog.netlify.app/p/new-test-for-post/</guid>
-        <description>&lt;img src="https://anderson-blog.netlify.app/p/new-test-for-post/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Setting Up The Blog" /&gt;&lt;p&gt;This is just a test to see how it looks when i make a single text file.&lt;/p&gt;
-&lt;p&gt;It worked, add two spaces at the end of the line and then back space (even multiple times)&lt;/p&gt;
+        <description>&lt;img src="https://anderson-blog.netlify.app/p/new-test-for-post/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Setting Up The Blog" /&gt;&lt;p&gt;All right, let&amp;rsquo;s cut to the chase, creating this Blog with RStudio, blogdown, and Hugo themes after just a week of introduction to R programming for my MSc&amp;rsquo;s program, was hella hard and a pain in the butt. I&amp;rsquo;m not gonna lie.&lt;/p&gt;
+&lt;p&gt;Most of the tutorials/how-to that you can find online, be it on video format or another person&amp;rsquo;s blog, are absolutely great; for them and for their settings and probably won&amp;rsquo;t transfer as well as you might think in your specific case. There&amp;rsquo;s always some troubleshooting you gotta do that&amp;rsquo;s not covered anywhere and you might need to come up with something on your own, merging together tips from others. I&amp;rsquo;m not saying it&amp;rsquo;s impossible of course, but I was surprised to see how hard and sometimes no sense (at least for now, I&amp;rsquo;ll probably get better in the future) it is.&lt;/p&gt;
+&lt;p&gt;Even with blogdown and Hugo, which should be the no-brainer-JavaScript-HTML-free way of making a blog, was hard af. I&amp;rsquo;d chosen a different theme to start with but had to drop it after not being able to troubleshoot a deploying problem.&lt;/p&gt;
+&lt;p&gt;Enough with the rant, let&amp;rsquo;s spread some positive vibes, shall we?&lt;/p&gt;
+&lt;h1 id=&#34;relevant-resources&#34;&gt;Relevant Resources&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://towardsdatascience.com/a-data-analysts-guide-to-creating-your-personal-website-with-r-f0079ba9b81c&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Main Article from Bobby Muljono (towards data science)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://medium.com/@aklson_DS/how-to-properly-setup-your-github-repository-mac-version-3a8047b899e5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Setting up GitHub repo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/hugo-theme-stack/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Stack Theme&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;All the relevant references are here, but you are most likely to do some good ol&#39; googling, to find out everything you need.&lt;/p&gt;
+&lt;p&gt;TL;DR you create a new repo on RStudio with blogdown where you choose your theme, create a repo on GitHub that will be integrated with Git, modify your theme (this is the hardest part btw, but you&amp;rsquo;ll get better once you get used to it) and finally, you need a platform that deploys your website and hosts it (in my case I&amp;rsquo;ve used Netlify, that takes your files in your GitHub repo and turns it into what you are seeing now).&lt;/p&gt;
+&lt;p&gt;Though the process is quite straightforward, once you get to the personalization of your website, that&amp;rsquo;s when it gets tricky. There should be, and that&amp;rsquo;s not always the case, so keep that in mind, documentation for every Hugo theme you decide to use and general documentation on the architecture of Hugo and the syntax. Basically, documents that explain how Hugo thinks. And, that&amp;rsquo;s as crucial as it gets. Once you&amp;rsquo;ve entered that rabbit hole, all you gotta do is figure out through trial and error what goes where, and when the blog throws a tantrum because that goddamn image is not in the right folder. If you are like me and have absolutely zero coding/computer science background, sometimes the terminology used makes no sense whatsoever and the only way out is to bang your head against a wall multiple times before getting to that &amp;ldquo;oh god, thanks it worked&amp;rdquo; moment. Last tip i can give you is to look at the examples provided , build the server on local host and tweak them as much as you can. That will hint you what you can and cannot do in order to manipulate the layout of the blog.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s it, this was mostly a general test for me, about the blog and the text piece, which was a lot harder than I thought it would. Juicier things are coming about coursers imma about to take and report here, and a general overview of the Msc program I&amp;rsquo;m currently in.&lt;/p&gt;
+&lt;p&gt;See ya!&lt;/p&gt;
 </description>
         </item>
         

@@ -36,9 +36,16 @@ All the relevant references are here, but you are most likely to do some good ol
 
 TL;DR you create a new repo on RStudio with blogdown where you choose your theme, create a repo on GitHub that will be integrated with Git, modify your theme (this is the hardest part btw, but you'll get better once you get used to it) and finally, you need a platform that deploys your website and hosts it (in my case I've used Netlify, that takes your files in your GitHub repo and turns it into what you are seeing now).
 
-Though the process is quite straightforward, once you get to the personalization of your website, that's when it gets tricky. There should be, and that's not always the case, so keep that in mind, documentation for every Hugo theme you decide to use and general documentation on the architecture of Hugo and the syntax. Basically, documents that explain how Hugo thinks. And, that's as crucial as it gets. Once you've entered that rabbit hole, all you gotta do is figure out through trial and error what goes where, and when the blog throws a tantrum because that goddamn image is not in the right folder. If you are like me and have absolutely zero coding/computer science background, sometimes the terminology used makes no sense whatsoever and the only way out is to bang your head against a wall multiple times before getting to that "oh god, thanks it worked" moment. Last tip i can give you is to look at the examples provided , build the server on local host and tweak them as much as you can. That will hint you what you can and cannot do in order to manipulate the layout of the blog.
+Though the process is quite straightforward, once you get to the personalization of your website, that's when it gets tricky. There should be, and that's not always the case, so keep that in mind, documentation for every Hugo theme you decide to use and general documentation on the architecture of Hugo and the syntax. Basically, documents that explain how Hugo thinks. And, that's as crucial as it gets. Once you've entered that rabbit hole, all you gotta do is figure out through trial and error what goes where, and when the blog throws a tantrum because that goddamn image is not in the right folder.  
+
+If you are like me and have absolutely zero coding/computer science background, sometimes the terminology used makes no sense whatsoever and the only way out is to bang your head against a wall multiple times before getting to that "oh god, thanks it worked" moment. Last tip i can give you is to look at the examples provided , build the server on local host and tweak them as much as you can. That will hint you what you can and cannot do in order to manipulate the layout of the blog.
 
 
 That's it, this was mostly a general test for me, about the blog and the text piece, which was a lot harder than I thought it would. Juicier things are coming about coursers imma about to take and report here, and a general overview of the Msc program I'm currently in.
+
+I know this might sound super easy to professional webdevs and whatnot, but we not that good alright? So, if you were able to get through this  
+
+# Here's your reward. My dog being cute
+![you thic ass boi](morris_dog.png)
 
 See ya!

@@ -1,0 +1,14 @@
+---
+title: Rmarkdown test
+author: R package build
+date: '2021-03-10'
+slug: rmarkdown-test
+categories:
+  - Test
+tags:
+  - R Markdown
+image: ~
+style:
+  background: '#2a9d8f'
+  color: '#fff'
+---

@@ -34,5 +34,32 @@
       <description></description>
     </item>
     
+    <item>
+      <title>#rstats</title>
+      <link>https://genstud.netlify.app/tags/#rstats/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://genstud.netlify.app/tags/#rstats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogdown</title>
+      <link>https://genstud.netlify.app/tags/blogdown/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://genstud.netlify.app/tags/blogdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Markdown</title>
+      <link>https://genstud.netlify.app/tags/r-markdown/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://genstud.netlify.app/tags/r-markdown/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

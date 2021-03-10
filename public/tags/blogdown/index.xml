@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blogdown on GenStud</title>
+    <link>https://genstud.netlify.app/tags/blogdown/</link>
+    <description>Recent content in blogdown on GenStud</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neddi osti</title>
+      <link>https://genstud.netlify.app/p/neddi-osti/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://genstud.netlify.app/p/neddi-osti/</guid>
+      <description>fofjo ejfow qof 0fs
+library(ggplot2) ggplot(diamonds, aes(x=carat, y=price, color=clarity)) + geom_point() </description>
+    </item>
+    
+  </channel>
+</rss>

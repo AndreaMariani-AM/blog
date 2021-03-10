@@ -17,5 +17,15 @@
 Most of the tutorials/how-to that you can find online, be it on video format or another person&amp;rsquo;s blog, are absolutely great; for them and for their settings and probably won&amp;rsquo;t transfer as well as you might think in your specific case.</description>
     </item>
     
+    <item>
+      <title>Neddi osti</title>
+      <link>https://genstud.netlify.app/p/neddi-osti/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://genstud.netlify.app/p/neddi-osti/</guid>
+      <description>fofjo ejfow qof 0fs
+library(ggplot2) ggplot(diamonds, aes(x=carat, y=price, color=clarity)) + geom_point() </description>
+    </item>
+    
   </channel>
 </rss>

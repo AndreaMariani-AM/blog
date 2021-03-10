@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R Markdown on Bio</title>
-    <link>https://anderson-blog.netlify.app/tags/r-markdown/</link>
-    <description>Recent content in R Markdown on Bio</description>
+    <title>R Markdown on GenStud</title>
+    <link>https://genstud.netlify.app/tags/r-markdown/</link>
+    <description>Recent content in R Markdown on GenStud</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://anderson-blog.netlify.app/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello R Markdown</title>
-      <link>https://anderson-blog.netlify.app/p/hello-r-markdown/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <title>Neddi osti</title>
+      <link>https://genstud.netlify.app/p/neddi-osti/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://anderson-blog.netlify.app/p/hello-r-markdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
+      <guid>https://genstud.netlify.app/p/neddi-osti/</guid>
+      <description>fofjo ejfow qof 0fs
+library(ggplot2) ggplot(diamonds, aes(x=carat, y=price, color=clarity)) + geom_point() </description>
     </item>
     
   </channel>

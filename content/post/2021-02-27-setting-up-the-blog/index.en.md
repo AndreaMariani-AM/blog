@@ -32,7 +32,7 @@ Enough with the rant, let's spread some positive vibes, shall we?
   
   
     
-All the relevant references are here, but you are most likely to do some good ol' googling, to find out everything you need.
+# All the relevant references are here, but you are most likely to do some good ol' googling, to find out everything you need.
 
 TL;DR you create a new repo on RStudio with blogdown where you choose your theme, create a repo on GitHub that will be integrated with Git, modify your theme (this is the hardest part btw, but you'll get better once you get used to it) and finally, you need a platform that deploys your website and hosts it (in my case I've used Netlify, that takes your files in your GitHub repo and turns it into what you are seeing now).
 

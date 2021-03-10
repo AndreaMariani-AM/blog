@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Bio</title>
-        <link>https://anderson-blog.netlify.app/</link>
-        <description>Recent content on Bio</description>
+        <title>GenStud</title>
+        <link>https://genstud.netlify.app/</link>
+        <description>Recent content on GenStud</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anderson-blog.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Setting Up The Blog</title>
-        <link>https://anderson-blog.netlify.app/p/new-test-for-post/</link>
+        <link>https://genstud.netlify.app/p/new-test-for-post/</link>
         <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://anderson-blog.netlify.app/p/new-test-for-post/</guid>
-        <description>&lt;img src="https://anderson-blog.netlify.app/p/new-test-for-post/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Setting Up The Blog" /&gt;&lt;p&gt;All right, let&amp;rsquo;s cut to the chase, creating this Blog with RStudio, blogdown, and Hugo themes after just a week of introduction to R programming for my MSc&amp;rsquo;s program, was hella hard and a pain in the butt. I&amp;rsquo;m not gonna lie.&lt;/p&gt;
+        <guid>https://genstud.netlify.app/p/new-test-for-post/</guid>
+        <description>&lt;img src="https://genstud.netlify.app/p/new-test-for-post/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Setting Up The Blog" /&gt;&lt;p&gt;All right, let&amp;rsquo;s cut to the chase, creating this Blog with RStudio, blogdown, and Hugo themes after just a week of introduction to R programming for my MSc&amp;rsquo;s program, was hella hard and a pain in the butt. I&amp;rsquo;m not gonna lie.&lt;/p&gt;
 &lt;p&gt;Most of the tutorials/how-to that you can find online, be it on video format or another person&amp;rsquo;s blog, are absolutely great; for them and for their settings and probably won&amp;rsquo;t transfer as well as you might think in your specific case. There&amp;rsquo;s always some troubleshooting you gotta do that&amp;rsquo;s not covered anywhere and you might need to come up with something on your own, merging together tips from others. I&amp;rsquo;m not saying it&amp;rsquo;s impossible of course, but I was surprised to see how hard and sometimes no sense (at least for now, I&amp;rsquo;ll probably get better in the future) it is.&lt;/p&gt;
 &lt;p&gt;Even with blogdown and Hugo, which should be the no-brainer-JavaScript-HTML-free way of making a blog, was hard af. I&amp;rsquo;d chosen a different theme to start with but had to drop it after not being able to troubleshoot a deploying problem.&lt;/p&gt;
 &lt;p&gt;Enough with the rant, let&amp;rsquo;s spread some positive vibes, shall we?&lt;/p&gt;
@@ -25,7 +25,7 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/hugo-theme-stack/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hugo Stack Theme&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;all-the-relevant-references-are-here-but-you-are-most-likely-to-do-some-good-ol-googling-to-find-out-everything-you-need&#34;&gt;All the relevant references are here, but you are most likely to do some good ol&#39; googling, to find out everything you need.&lt;/h1&gt;
+&lt;p&gt;All the relevant references are here, but you are most likely to do some good ol&#39; googling, to find out everything you need.&lt;/p&gt;
 &lt;p&gt;TL;DR you create a new repo on RStudio with blogdown where you choose your theme, create a repo on GitHub that will be integrated with Git, modify your theme (this is the hardest part btw, but you&amp;rsquo;ll get better once you get used to it) and finally, you need a platform that deploys your website and hosts it (in my case I&amp;rsquo;ve used Netlify, that takes your files in your GitHub repo and turns it into what you are seeing now).&lt;/p&gt;
 &lt;p&gt;Though the process is quite straightforward, once you get to the personalization of your website, that&amp;rsquo;s when it gets tricky. There should be, and that&amp;rsquo;s not always the case, so keep that in mind, documentation for every Hugo theme you decide to use and general documentation on the architecture of Hugo and the syntax. Basically, documents that explain how Hugo thinks. And, that&amp;rsquo;s as crucial as it gets. Once you&amp;rsquo;ve entered that rabbit hole, all you gotta do is figure out through trial and error what goes where, and when the blog throws a tantrum because that goddamn image is not in the right folder.&lt;/p&gt;
 &lt;p&gt;If you are like me and have absolutely zero coding/computer science background, sometimes the terminology used makes no sense whatsoever and the only way out is to bang your head against a wall multiple times before getting to that &amp;ldquo;oh god, thanks it worked&amp;rdquo; moment. Last tip i can give you is to look at the examples provided , build the server on local host and tweak them as much as you can. That will hint you what you can and cannot do in order to manipulate the layout of the blog.&lt;/p&gt;
@@ -33,8 +33,8 @@
 &lt;p&gt;I know this might sound super easy to professional webdevs and whatnot, but we not that good alright? So, if you were able to get through this&lt;/p&gt;
 &lt;h1 id=&#34;heres-your-reward-my-dog-being-cute&#34;&gt;Here&amp;rsquo;s your reward. My dog being cute&lt;/h1&gt;
 &lt;p&gt;&lt;figure style=&#34;flex-grow: 100; flex-basis: 240px&#34;&gt;
-		&lt;a href=&#34;https://anderson-blog.netlify.app/p/new-test-for-post/morris_dog.png&#34; data-size=&#34;3024x3024&#34;&gt;&lt;img src=&#34;https://anderson-blog.netlify.app/p/new-test-for-post/morris_dog.png&#34;
-				srcset=&#34;https://anderson-blog.netlify.app/p/new-test-for-post/morris_dog_hu9463ed6ca25fadd516d86c8b0c57f3b5_14734430_480x0_resize_box_2.png 480w, https://anderson-blog.netlify.app/p/new-test-for-post/morris_dog_hu9463ed6ca25fadd516d86c8b0c57f3b5_14734430_1024x0_resize_box_2.png 1024w&#34;
+		&lt;a href=&#34;https://genstud.netlify.app/p/new-test-for-post/morris_dog.png&#34; data-size=&#34;3024x3024&#34;&gt;&lt;img src=&#34;https://genstud.netlify.app/p/new-test-for-post/morris_dog.png&#34;
+				srcset=&#34;https://genstud.netlify.app/p/new-test-for-post/morris_dog_hu9463ed6ca25fadd516d86c8b0c57f3b5_14734430_480x0_resize_box_2.png 480w, https://genstud.netlify.app/p/new-test-for-post/morris_dog_hu9463ed6ca25fadd516d86c8b0c57f3b5_14734430_1024x0_resize_box_2.png 1024w&#34;
 				width=&#34;3024&#34;
 				height=&#34;3024&#34;
 				loading=&#34;lazy&#34;

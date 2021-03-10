@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Machine Learning on Bio</title>
-    <link>https://anderson-blog.netlify.app/categories/test2/</link>
-    <description>Recent content in Machine Learning on Bio</description>
+    <title>Machine Learning on GenStud</title>
+    <link>https://genstud.netlify.app/categories/test2/</link>
+    <description>Recent content in Machine Learning on GenStud</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://anderson-blog.netlify.app/categories/test2/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://genstud.netlify.app/categories/test2/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

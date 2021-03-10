@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Bio</title>
-    <link>https://anderson-blog.netlify.app/post/</link>
-    <description>Recent content in Posts on Bio</description>
+    <title>Posts on GenStud</title>
+    <link>https://genstud.netlify.app/post/</link>
+    <description>Recent content in Posts on GenStud</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anderson-blog.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting Up The Blog</title>
-      <link>https://anderson-blog.netlify.app/p/new-test-for-post/</link>
+      <link>https://genstud.netlify.app/p/new-test-for-post/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anderson-blog.netlify.app/p/new-test-for-post/</guid>
+      <guid>https://genstud.netlify.app/p/new-test-for-post/</guid>
       <description>All right, let&amp;rsquo;s cut to the chase, creating this Blog with RStudio, blogdown, and Hugo themes after just a week of introduction to R programming for my MSc&amp;rsquo;s program, was hella hard and a pain in the butt. I&amp;rsquo;m not gonna lie.
 Most of the tutorials/how-to that you can find online, be it on video format or another person&amp;rsquo;s blog, are absolutely great; for them and for their settings and probably won&amp;rsquo;t transfer as well as you might think in your specific case.</description>
     </item>

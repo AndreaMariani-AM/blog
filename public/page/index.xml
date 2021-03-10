@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on Bio</title>
-    <link>https://anderson-blog.netlify.app/page/</link>
-    <description>Recent content in Pages on Bio</description>
+    <title>Pages on GenStud</title>
+    <link>https://genstud.netlify.app/page/</link>
+    <description>Recent content in Pages on GenStud</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anderson-blog.netlify.app/page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://anderson-blog.netlify.app/about/</link>
+      <link>https://genstud.netlify.app/about/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anderson-blog.netlify.app/about/</guid>
+      <guid>https://genstud.netlify.app/about/</guid>
       <description>Sup! Happy you&amp;rsquo;ve stumbled upon this blog, bear with me and come along for the ride as I introduce to you my very ordinary life and the reason why I&amp;rsquo;ve decided to open this blog. First things first, my name&amp;rsquo;s Andrea, Italian boy by birth, I&amp;rsquo;ve studied Pharmacy in Italy and worked for a bit in Helsinki (y&amp;rsquo;all need to check out that place, seriously stunning).
 In Helsinki, I came in contact, for the first time, with the bioinformatics/computational biology field when I was working on data from RNA-seq experiments and thought &amp;ldquo;this is it, I like this stuff&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>Archives</title>
-      <link>https://anderson-blog.netlify.app/archives/</link>
+      <link>https://genstud.netlify.app/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://anderson-blog.netlify.app/archives/</guid>
+      <guid>https://genstud.netlify.app/archives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Search</title>
-      <link>https://anderson-blog.netlify.app/search/</link>
+      <link>https://genstud.netlify.app/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://anderson-blog.netlify.app/search/</guid>
+      <guid>https://genstud.netlify.app/search/</guid>
       <description></description>
     </item>
     

@@ -1,8 +1,8 @@
-baseurl: https://anderson-blog.netlify.app
+baseurl: https://genstud.netlify.app
 languageCode: en-us
 theme: "hugo-theme-stack"
 paginate: 5
-title: Bio
+title: GenStud
 
 # Change it to your Disqus shortname before using
 disqusShortname: anderson-blog-1

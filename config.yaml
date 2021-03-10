@@ -5,7 +5,7 @@ paginate: 5
 title: Bio
 
 # Change it to your Disqus shortname before using
-disqusShortname: hugo-theme-stack
+disqusShortname: anderson-blog-1
 
 # GA Tracking ID
 googleAnalytics:

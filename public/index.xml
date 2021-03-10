@@ -25,11 +25,25 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/hugo-theme-stack/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hugo Stack Theme&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;All the relevant references are here, but you are most likely to do some good ol&#39; googling, to find out everything you need.&lt;/p&gt;
+&lt;h1 id=&#34;all-the-relevant-references-are-here-but-you-are-most-likely-to-do-some-good-ol-googling-to-find-out-everything-you-need&#34;&gt;All the relevant references are here, but you are most likely to do some good ol&#39; googling, to find out everything you need.&lt;/h1&gt;
 &lt;p&gt;TL;DR you create a new repo on RStudio with blogdown where you choose your theme, create a repo on GitHub that will be integrated with Git, modify your theme (this is the hardest part btw, but you&amp;rsquo;ll get better once you get used to it) and finally, you need a platform that deploys your website and hosts it (in my case I&amp;rsquo;ve used Netlify, that takes your files in your GitHub repo and turns it into what you are seeing now).&lt;/p&gt;
 &lt;p&gt;Though the process is quite straightforward, once you get to the personalization of your website, that&amp;rsquo;s when it gets tricky. There should be, and that&amp;rsquo;s not always the case, so keep that in mind, documentation for every Hugo theme you decide to use and general documentation on the architecture of Hugo and the syntax. Basically, documents that explain how Hugo thinks. And, that&amp;rsquo;s as crucial as it gets. Once you&amp;rsquo;ve entered that rabbit hole, all you gotta do is figure out through trial and error what goes where, and when the blog throws a tantrum because that goddamn image is not in the right folder.&lt;/p&gt;
 &lt;p&gt;If you are like me and have absolutely zero coding/computer science background, sometimes the terminology used makes no sense whatsoever and the only way out is to bang your head against a wall multiple times before getting to that &amp;ldquo;oh god, thanks it worked&amp;rdquo; moment. Last tip i can give you is to look at the examples provided , build the server on local host and tweak them as much as you can. That will hint you what you can and cannot do in order to manipulate the layout of the blog.&lt;/p&gt;
 &lt;p&gt;That&amp;rsquo;s it, this was mostly a general test for me, about the blog and the text piece, which was a lot harder than I thought it would. Juicier things are coming about coursers imma about to take and report here, and a general overview of the Msc program I&amp;rsquo;m currently in.&lt;/p&gt;
+&lt;p&gt;I know this might sound super easy to professional webdevs and whatnot, but we not that good alright? So, if you were able to get through this&lt;/p&gt;
+&lt;h1 id=&#34;heres-your-reward-my-dog-being-cute&#34;&gt;Here&amp;rsquo;s your reward. My dog being cute&lt;/h1&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 100; flex-basis: 240px&#34;&gt;
+		&lt;a href=&#34;https://anderson-blog.netlify.app/p/new-test-for-post/morris_dog.png&#34; data-size=&#34;3024x3024&#34;&gt;&lt;img src=&#34;https://anderson-blog.netlify.app/p/new-test-for-post/morris_dog.png&#34;
+				srcset=&#34;https://anderson-blog.netlify.app/p/new-test-for-post/morris_dog_hu9463ed6ca25fadd516d86c8b0c57f3b5_14734430_480x0_resize_box_2.png 480w, https://anderson-blog.netlify.app/p/new-test-for-post/morris_dog_hu9463ed6ca25fadd516d86c8b0c57f3b5_14734430_1024x0_resize_box_2.png 1024w&#34;
+				width=&#34;3024&#34;
+				height=&#34;3024&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;you thic ass boi&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;you thic ass boi&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;See ya!&lt;/p&gt;
 </description>
         </item>

@@ -13,9 +13,9 @@ metaAlignment: center
 disable_comments: true
 output:
   blogdown::html_page:
-    toc: true
+    toc: false
     fig_width: 8
-    css: "/css/my-style.css"
+   
 --- 
 
 fofjo  ejfow qof 0fs

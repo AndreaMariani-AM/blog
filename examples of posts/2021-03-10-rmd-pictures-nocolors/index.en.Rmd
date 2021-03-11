@@ -15,10 +15,10 @@ output:
   blogdown::html_page:
     toc: false
     fig_width: 8
-    css: "/css/my-style.css"
+
 --- 
 
-fofjo  ejfow qof 0fs
+fofjo  ejfow qof 0fs fskeow jfoqwx 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE, echo=TRUE, eval=TRUE, warning=FALSE, message=FALSE, comment="  ")

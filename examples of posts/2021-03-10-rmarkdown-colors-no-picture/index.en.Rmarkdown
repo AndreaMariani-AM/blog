@@ -15,7 +15,7 @@ output:
   blogdown::html_page:
     toc: false
     fig_width: 8
-    css: "/css/my-style.css"
+   
 --- 
 
 fofjo  ejfow qof 0fs

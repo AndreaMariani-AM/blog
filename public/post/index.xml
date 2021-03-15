@@ -6,7 +6,16 @@
     <description>Recent content in Posts on GenStud</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What a Year Ahead</title>
+      <link>https://genstud.netlify.app/p/what-a-year-ahead/</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://genstud.netlify.app/p/what-a-year-ahead/</guid>
+      <description>Although it may seem that I&amp;rsquo;m referring to the current COVID-19 situation, this is actually a post on how I&amp;rsquo;ve decided to ruin my life once and for all with everything I&amp;rsquo;d like to know by the end of the year. Seems like a heck of a long shot now that I&amp;rsquo;m reading this again, but let this boy dream. Below some stuff I&amp;rsquo;m studying now and something that&amp;rsquo;s planned for the future.</description>
+    </item>
+    
     <item>
       <title>Setting Up The Blog</title>
       <link>https://genstud.netlify.app/p/new-test-for-post/</link>
@@ -15,16 +24,6 @@
       <guid>https://genstud.netlify.app/p/new-test-for-post/</guid>
       <description>All right, let&amp;rsquo;s cut to the chase, creating this Blog with RStudio, blogdown, and Hugo themes after just a week of introduction to R programming for my MSc&amp;rsquo;s program, was hella hard and a pain in the butt. I&amp;rsquo;m not gonna lie.
 Most of the tutorials/how-to that you can find online, be it on video format or another person&amp;rsquo;s blog, are absolutely great; for them and for their settings and probably won&amp;rsquo;t transfer as well as you might think in your specific case.</description>
-    </item>
-    
-    <item>
-      <title>Neddi osti</title>
-      <link>https://genstud.netlify.app/p/neddi-osti/</link>
-      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://genstud.netlify.app/p/neddi-osti/</guid>
-      <description>fofjo ejfow qof 0fs
-library(ggplot2) ggplot(diamonds, aes(x=carat, y=price, color=clarity)) + geom_point() </description>
     </item>
     
   </channel>

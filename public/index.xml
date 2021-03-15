@@ -6,7 +6,94 @@
         <description>Recent content on GenStud</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>What a Year Ahead</title>
+        <link>https://genstud.netlify.app/p/what-a-year-ahead/</link>
+        <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://genstud.netlify.app/p/what-a-year-ahead/</guid>
+        <description>&lt;img src="https://genstud.netlify.app/p/what-a-year-ahead/zaksheuskaya.jpg" alt="Featured image of post What a Year Ahead" /&gt;&lt;p&gt;Although it may seem that I&amp;rsquo;m referring to the current COVID-19 situation, this is actually a post on how I&amp;rsquo;ve decided to ruin my life once and for all with everything I&amp;rsquo;d like to know by the end of the year. Seems like a heck of a long shot now that I&amp;rsquo;m reading this again, but let this boy dream. Below some stuff I&amp;rsquo;m studying now and something that&amp;rsquo;s planned for the future.&lt;/p&gt;
+&lt;h1 id=&#34;hit-em-with-the-nested-list&#34;&gt;Hit &amp;lsquo;em with the Nested List&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Courses I&amp;rsquo;m currently taking
+&lt;ul&gt;
+&lt;li&gt;Genomic Data Science&lt;/li&gt;
+&lt;li&gt;R for Data Science&lt;/li&gt;
+&lt;li&gt;Machine Learning A-Z™: Hands-on Python &amp;amp; R In Data Science&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Courses I&amp;rsquo;ve planned
+&lt;ul&gt;
+&lt;li&gt;Single Cell RNA-seq Data Analysis&lt;/li&gt;
+&lt;li&gt;Data Visualization &amp;amp; Dashboarding with R&lt;/li&gt;
+&lt;li&gt;Statistics for Genomic Data Science&lt;/li&gt;
+&lt;li&gt;Statistical Inference and Modeling for High-throughput Experiments&lt;/li&gt;
+&lt;li&gt;High dimensional Data Analysis&lt;/li&gt;
+&lt;li&gt;Case Studies in Functional Genomics&lt;/li&gt;
+&lt;li&gt;HarvardX Biomedical Data Science Open Online Training&lt;/li&gt;
+&lt;li&gt;SQL for data science&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;whats-cooking&#34;&gt;What&amp;rsquo;s cooking?&lt;/h2&gt;
+&lt;p&gt;These are courses I&amp;rsquo;ve chosen to start with, two of them are actually thought through and well planned. Third one&amp;rsquo;s just an impulse and probably the least needed at this point (aka the ML one). But what can you do, when your brain goes rouge and decides on its own, if not following it?&lt;/p&gt;
+&lt;h3 id=&#34;genomic-data-science&#34;&gt;Genomic Data Science&lt;/h3&gt;
+&lt;p&gt;I won&amp;rsquo;t redirect to the website of the Master&amp;rsquo;s program simply &amp;lsquo;cause it&amp;rsquo;s only in Italian and I don&amp;rsquo;t think will be that helpful, unless you wanna see google translate fail miserably. Also, I won&amp;rsquo;t get into much detail here because I have a post coming out exactly on this topic, not because I&amp;rsquo;m lazy.  It&amp;rsquo;s a two years commitment just like any other master, nothing fancy, lots of statistics. Various modules and courses that can hint you what it means to be a data scientist working on genomics, ranging from regression models and genomic epidemiology to statistics for genomics and bioinformatics applied to big data. Oh yeah, and a never-ending internship that&amp;rsquo;ll make you regret your life&amp;rsquo;s choices.&lt;/p&gt;
+&lt;h3 id=&#34;r-for-data-sciencehttpsr4dshadconzindexhtml&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://r4ds.had.co.nz/index.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;R for Data Science&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Probably one of the most complete resources on the &amp;ldquo;basics&amp;rdquo; of R for data science and by far the most cited resource to start with data science in R that I&amp;rsquo;ve found. If you want a hard copy, help yourself &lt;a class=&#34;link&#34; href=&#34;https://www.amazon.com/R-Data-Science-Hadley-Wickham/dp/1491910399/ref=as_li_ss_tl?ie=UTF8&amp;amp;qid=1469550189&amp;amp;sr=8-1&amp;amp;keywords=R&amp;#43;for&amp;#43;data&amp;#43;science&amp;amp;linkCode=sl1&amp;amp;tag=devtools-20&amp;amp;linkId=6fe0069f9605cf847ed96c191f4e84dd&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;.  And basics&amp;rsquo; s in quotes for a reason and I&amp;rsquo;ll get back to that in a second.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s structured like this: it throws you directly into the visualization/data manipulation/exploratory data analysis world, without knowing anything about programming; and then teaches you about the fundamentals of data wrangling (data import, tidying, strings, and factors), programming (functions, vectors, iterations and so on) and modeling.
+Now, while I do believe the modeling part should be taught at the very end, I wonder why the core programming is taught later in the book. I was confused at the beginning, especially when manipulating data with dyplr, and I know some stuff about R.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m picturing someone approaching this for the very first time going like &amp;ldquo;the heck is this? Seriously, at some point was really hard to follow along even knowing the syntax, I can only imagine the struggle a complete newbie has to go through.
+That&amp;rsquo;s why I&amp;rsquo;ve placed basics in quotes at the beginning, while some parts are really toddler material, this is actually a bit more complex than other introductions to R that you can find online (IMO). I found out that when we start using flights data frame (classic data frame used in data science for teaching) my brain cells just crumble and die.&lt;/p&gt;
+&lt;p&gt;Besides this, I do think it&amp;rsquo;s a stupidly good book for learning data science and imma cherry-pick, from the chapters, what I suck at and work on it. But now that I think of it, I don&amp;rsquo;t think I can use &amp;ldquo;cherry-pick&amp;rdquo; for stuff  I&amp;rsquo;m bad at, right? But what if, you do enjoy slamming your face onto your keyboard and google searching every other minute? Is that cherry-picking stuff you suck at a positive behavior? The only way to get better at it? Am I losing my own thread here? I think so, let&amp;rsquo;s move on before it&amp;rsquo;s too late.&lt;/p&gt;
+&lt;h3 id=&#34;machine-learning-a-z-hands-on-python--r-in-data-sciencehttpswwwudemycomcoursemachinelearning&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.udemy.com/course/machinelearning/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Machine Learning A-Z™: Hands-on Python &amp;amp; R In Data Science&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;ll be brutally honest with ya, this was utterly unnecessary at this point, but I was so goddam intrigued. Be it because ML is everywhere if you open up Twitter; every other post in data science threads is some random 13 years old that&amp;rsquo;s teaching ML to grownups &amp;lsquo;cause he&amp;rsquo;s already figured out between recesses, what he wants to do with his own life, while I&amp;rsquo;m there, not sure what I&amp;rsquo;ll cook for dinner. Seriously, it&amp;rsquo;s everywhere. Dunno, why I haven&amp;rsquo;t started this before (no wait I know, I think it&amp;rsquo;s called lacking foundations).&lt;/p&gt;
+&lt;p&gt;Anyway, now that I pretty much know what&amp;rsquo;s going on in R, I thought this would be the perfect time to dive deep into the subject. I was particularly interested in what&amp;rsquo;s happening under the hood, mostly because R makes super easy running algorithms, thus I just can&amp;rsquo;t go running around and pressing buttons hoping to get something out. Apparently, you gotta understand what you&amp;rsquo;re doing.&lt;/p&gt;
+&lt;p&gt;The course is structured so you can use both R and Python and tries to give you a foundation on the most used algos for machine learning. It&amp;rsquo;s something like &amp;ldquo;here are your toys, now figure how what you like and how to use them&amp;rdquo;. But we&amp;rsquo;ll talk about this a lot in future posts.&lt;/p&gt;
+&lt;h2 id=&#34;courses-im-taking-this-year&#34;&gt;Courses I&amp;rsquo;m taking this year&lt;/h2&gt;
+&lt;p&gt;The following are courses I&amp;rsquo;m planning on taking in the next few months. The underlying idea is to mix things up and integrate more field-specific courses with others that are broader and focus more on data science per se. This is what I came up with for now and hopefully, I&amp;rsquo;ll be able to get them done by the end of the year&lt;/p&gt;
+&lt;h3 id=&#34;single-cell-rna-seq-data-analysis-with-r-offered-by-cschttpswwwcscfiwebtraining-scrnaseq&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.csc.fi/web/training/-/scrnaseq&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Single Cell RNA-seq Data Analysis with R offered by CSC&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;First one up on the list is, without any shadow of a doubt, scRNA-seq analysis (single-cell RNA sequencing). The course is sponsored by elixir &lt;a class=&#34;link&#34; href=&#34;https://elixir-europe.org/about-us/how-funded/eu-projects/excelerate&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;EXCELERATE&lt;/a&gt; program and organized by the Finnish company &lt;a class=&#34;link&#34; href=&#34;https://www.csc.fi/en/training&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CSC&lt;/a&gt;. The course is structured with video lessons that can be found on their &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=BfxDfL1GBzk&amp;amp;list=PLjiXAZO27elC_xnk7gVNM85I2IQl5BEJN&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;youtube channel&lt;/a&gt;, slides, and exercise notebooks on &lt;a class=&#34;link&#34; href=&#34;https://github.com/NBISweden/excelerate-scRNAseq&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Long story short, the course starts with data quality and preprocessing, normalization, confounding removal, and data integration. Then it focuses on dimensionality reduction, clustering, DGEA (Differential Gene Expression Analysis) and ends with cell-type identification, trajectories/Pseudo-time and spatial transcriptomics.
+Even though high-dimensional data concepts are being explained throughout the course, better integration is required. Thus, the courses on edX and Coursera are just about that.&lt;/p&gt;
+&lt;h3 id=&#34;data-visualization--dashboarding-with-r-on-courserahttpswwwcourseraorgspecializationsjhu-data-visualization-dashboarding-with-r&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.coursera.org/specializations/jhu-data-visualization-dashboarding-with-r&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Data Visualization &amp;amp; Dashboarding with R on Coursera&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;A bit more of a general-purpose compilation of courses of data visualization. I&amp;rsquo;m skipping quite a bit here &amp;lsquo;cause it repeats a lot of the basics and hopefully, at this point I&amp;rsquo;m decent enough with R. First course is all about importing, tidying data and there&amp;rsquo;s a lot of info on reporting with R Markdown, and that&amp;rsquo;s why I&amp;rsquo;ve chosen this course, mainly.&lt;br&gt;
+Second course&amp;rsquo;s main topic is ggplot2, of course. Cant&amp;rsquo; go wrong with that guy. I&amp;rsquo;ll quickly browse through this again, but most of the work it&amp;rsquo;s already done in &amp;ldquo;R for Data Science&amp;rdquo;.&lt;br&gt;
+Third course&amp;rsquo;s the previous one but on steroids.&lt;br&gt;
+Lastly, the fourth one, is all about publishing visualizations with Shiny and Flexdashboard. We going fancy fam.&lt;/p&gt;
+&lt;h3 id=&#34;statistics-for-genomic-data-science-on-courserahttpswwwcourseraorglearnstatistical-genomicsspecializationgenomic-data-science&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.coursera.org/learn/statistical-genomics?specialization=genomic-data-science&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Statistics for Genomic Data Science on Coursera&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This is a course that I&amp;rsquo;d consider borderline between field-specific biology and multi-purpose statistics. The reason is that, through the course, most of the statistics that are being taught are pretty much all the time applied to genomics and are case-specific. I&amp;rsquo;ll take this hoping that it&amp;rsquo;d cement my knowledge on exploratory data analysis, normalization, preprocessing, clustering and modeling for genomics. Also, in the last module they give you common pipelines for RNA/ChiP-seq, DNA methylation studies, and GWAS. Who am I to refuse this?&lt;/p&gt;
+&lt;h3 id=&#34;statistical-inference-and-modeling-for-high-throughput-experiments-on-edxhttpswwwedxorgcoursestatistical-inference-and-modeling-for-high-throug&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.edx.org/course/statistical-inference-and-modeling-for-high-throug&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Statistical Inference and Modeling for High-throughput Experiments on edX&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This definitely will be the hardest one, mostly &amp;lsquo;cause of statistics overload. It&amp;rsquo;ll either bend me or break me, and there&amp;rsquo;s no going back. This is my public statement of commitment. The course focuses on a variety of statistical topics, ranging from multiple testing, error rate controls, false discovery rates to statistical modeling and Bayesian statistics. I know, from the very beginning, that this will cause a stupid amount of pain, but what really hurts is that, deep down, I know that I need this. You can&amp;rsquo;t run around the Genomics playground making your own statistics up. You gotta learn this. I gotta learn this. So, off I go, I guess.&lt;/p&gt;
+&lt;h3 id=&#34;high-dimensional-data-analysis-on-edxhttpswwwedxorgcoursehigh-dimensional-data-analysis&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.edx.org/course/high-dimensional-data-analysis&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;High dimensional Data Analysis on edX&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This is the first integration to the scRNA-seq course from CSC and provided by HarvardX on the &lt;a class=&#34;link&#34; href=&#34;https://www.edx.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;edX&lt;/a&gt; platform. This course revolves around concepts like mathematical distance, dimensionality reduction and singular value decomposition (SVC), and principal component analysis(PCA). Other modules that I find appealing are how to deal with batch effects, heatmaps and clustering, while I&amp;rsquo;m probably dropping the intro to machine learning also provided by them. I have nothing funny to say about this, sorry.&lt;/p&gt;
+&lt;h3 id=&#34;case-studies-in-functional-genomics-on-edxhttpswwwedxorgcoursecase-studies-in-functional-genomicsindexproductqueryided6c49ffde7ddfe8c8787c6239463e95position1&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.edx.org/course/case-studies-in-functional-genomics?index=product&amp;amp;queryID=ed6c49ffde7ddfe8c8787c6239463e95&amp;amp;position=1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Case Studies in Functional Genomics on edX&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;ll probably take this one at the same time as the High Dimensional Data analysis, giving the fact this is focusing especially on the analysis of RNA-seq, DNA methylation and ChiP-seq data. Also, it&amp;rsquo;s gonna give a basic understanding of how reads are being mapped to the reference genome and how to assess the quality of NextGen data. Basically, NextGen data will become your best friend.&lt;/p&gt;
+&lt;h3 id=&#34;harvardx-biomedical-data-science-open-online-traininghttprafalabgithubiopagesharvardxhtml&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://rafalab.github.io/pages/harvardx.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;HarvardX Biomedical Data Science Open Online Training&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;m gonna make this quick, there&amp;rsquo;s this GitHub repo that&amp;rsquo;s been made from this book, [hard copy here] (&lt;a href=&#34;https://www.amazon.com/Data-Analysis-Life-Sciences-R/dp/1498775675/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1500332088&amp;amp;sr=1-1),&#34;&gt;https://www.amazon.com/Data-Analysis-Life-Sciences-R/dp/1498775675/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1500332088&amp;amp;sr=1-1),&lt;/a&gt; or maybe is the other way around, and it&amp;rsquo;s divided into three sections: Data Analysis for the Life Sciences, Genomics Data Analysis and Using Python for Research. While the Python section is a hard pass (even though at some point I gotta learn that sneaky little brat), the others look super interesting even if they&amp;rsquo;re most likely repeating some stuff. As a general integration to the other courses, they seem appropriate.&lt;/p&gt;
+&lt;h3 id=&#34;sql-for-data-science-on-courserahttpswwwcourseraorglearnsql-for-data-sciencespecializationlearn-sql-basics-data-science&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.coursera.org/learn/sql-for-data-science?specialization=learn-sql-basics-data-science&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SQL for data science on Coursera&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Well, there&amp;rsquo;s not much to say here, you can&amp;rsquo;t work in any data science-related field without knowing a wee bit of SQL.&lt;/p&gt;
+&lt;p&gt;This is it, lots of stuff, not much time, way less determination. Let&amp;rsquo;s see what the future holds.&lt;/p&gt;
+&lt;p&gt;See ya.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Setting Up The Blog</title>
         <link>https://genstud.netlify.app/p/new-test-for-post/</link>
         <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
@@ -45,18 +132,6 @@
 		
 	&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;See ya!&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Neddi osti</title>
-        <link>https://genstud.netlify.app/p/neddi-osti/</link>
-        <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
-        
-        <guid>https://genstud.netlify.app/p/neddi-osti/</guid>
-        <description>&lt;p&gt;fofjo  ejfow qof 0fs&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;nf&#34;&gt;library&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ggplot2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;span class=&#34;nf&#34;&gt;ggplot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;diamonds&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;aes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;carat&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;price&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;clarity&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;geom_point&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!-- raw HTML omitted --&gt;
 </description>
         </item>
         

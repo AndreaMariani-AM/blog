@@ -6,13 +6,87 @@
         <description>Recent content on GenStud</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 22 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Genomic Data Science</title>
+        <link>https://genstud.netlify.app/p/genomic-data-science/</link>
+        <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://genstud.netlify.app/p/genomic-data-science/</guid>
+        <description>&lt;img src="https://genstud.netlify.app/p/genomic-data-science/pexels-madison-inouye-1831234.jpg" alt="Featured image of post Genomic Data Science" /&gt;&lt;h1 id=&#34;first-of-all-whats-this&#34;&gt;First of all, What&amp;rsquo;s this?&lt;/h1&gt;
+&lt;p&gt;This is the program I&amp;rsquo;m enrolled in atm and as of today it&amp;rsquo;s still named  &amp;ldquo;Secondary Level Master&amp;rsquo;s Degree&amp;rdquo;.
+Wait, let&amp;rsquo;s cut the chase right out, the heck is this?
+For all the non-Italians out there, this needs a bit of an explanation and context. To be completely honest, I&amp;rsquo;m not aware if something similar even exists outside of this country.&lt;/p&gt;
+&lt;p&gt;Anyways, Italian&amp;rsquo;s higher education is roughly structured as follows:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Bachelor&amp;rsquo;s degree (3 years)&lt;/li&gt;
+&lt;li&gt;Master&amp;rsquo;s degree( 2 years)&lt;/li&gt;
+&lt;li&gt;Full-on 5/6 years degrees (like medicine or law, for example)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This is considered as a &amp;ldquo;first-level&amp;rdquo;, or something like that, it&amp;rsquo;s quite foggy though. After this, you can take on one of these paths:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;PhD&lt;/li&gt;
+&lt;li&gt;School of specialization&lt;/li&gt;
+&lt;li&gt;First level Master&amp;rsquo;s degree&lt;/li&gt;
+&lt;li&gt;Second level Master&amp;rsquo;s degree&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;And here is where it gets tricky &amp;lsquo;cause these degrees have the same exact name as the Master that follows a bachelor.
+To make this as simple as possible, a first-level Master&amp;rsquo;s degree is a Master that can be attended by bachelor students (undergrads), while a second-level Master&amp;rsquo;s is a Master&amp;rsquo;s that can be attended by Master&amp;rsquo;s students (post-bachelor, grad student).&lt;/p&gt;
+&lt;p&gt;I know this is hella confusing but bear with me for a second. The idea underlying this structure is that these first/second-level Masters should bridge the gap between Universities and companies, giving the possibility to students to specialize in a sector and also gain work experience while doing it. Then what are schools of specialization, you might ask. Honestly, I have no clues.&lt;/p&gt;
+&lt;h2 id=&#34;whats-the-structure-like&#34;&gt;What&amp;rsquo;s the Structure Like&lt;/h2&gt;
+&lt;p&gt;How&amp;rsquo;s structured then? Well, it blends courses/modules and independent study spread over two years. It&amp;rsquo;s not as grade-centric as BSc or MSc are, but it does test you. In these two years, you&amp;rsquo;re also expected to do an internship on a subject that&amp;rsquo;s specific to the course, and the ultimate goal, in my case, is to produce a relevant thesis and hopefully a decent publication.&lt;/p&gt;
+&lt;p&gt;It has 5 modules per year for two years plus some conferences and seminars throughout the whole year. Those will be more field-specific and organized within the student&amp;rsquo;s interests.&lt;/p&gt;
+&lt;h2 id=&#34;modules-and-courses&#34;&gt;Modules and Courses&lt;/h2&gt;
+&lt;p&gt;As said before, it&amp;rsquo;s divided into 5 modules per year and this&amp;rsquo;s a brief overview of the modules.&lt;/p&gt;
+&lt;h3 id=&#34;first-year&#34;&gt;First year&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Statistics with R. Ofc starts off with an introduction of classical statistical inference (parametric and non-parametric statistics), data visualization in R, and a general introduction to R programming language and RStudio.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Regression Models. It comprises linear and logistic regression, linear mixed models, and survival analysis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Resampling Methods. Covers a variety of topics like permutation/bootstrapping and randomization, Monte Carlo simulation, FDR, and empirical p-values.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Epidemiology Applied to Genetics. Covers the design and the interpretation of various epidemiological studies.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Statistics applied to Genetics. It&amp;rsquo;s all about them Genome-Wide (GW) studies.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;second-year&#34;&gt;Second year&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Handling and Analysis of Big Data. Cloud and parallel computing,  use of databases (SQL and NoSQL), and introduction to Python programming.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bioinformatics Applied to Genetics. I&amp;rsquo;m so waiting for this. Next-gen seq, DNA/RNA-seq, variant calling, and Differential expression analyses.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Statistics Applied to Genomics. Lasso and elastic-net regression, dimensionality reduction, path and heredity analysis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;POST-GWAS. This also looks quite interesting, ranging from polygenic risk score and cross-validation, Meta-analysis of GWA studies to Mendelian randomization and method of Omics integrations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Machine Learning. This covers supervised/unsupervised/deep learning applied to genomics.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;what-am-i-expecting-out-of-this-degree&#34;&gt;What Am I Expecting Out of This Degree?&lt;/h3&gt;
+&lt;p&gt;Let&amp;rsquo;s close this off by looking at what&amp;rsquo;s ahead. What will I get out of this program? Well, too early to tell but if I were to guess, I&amp;rsquo;d say that at least I should be a statistical ninja. Hope&amp;rsquo;s that statistical skills will be sound and crystal clear. Also, I do think that statistics involves a lot of critical thinking and pragmatic decision-making, and we don&amp;rsquo;t ever have enough of that, to be honest. Too much no sense interpretation of data happens in many fields, almost as if they were just made on the spot, so we better off without all of that.
+I can&amp;rsquo;t really tell what will happen during this time, I only know that it&amp;rsquo;ll be fun.&lt;/p&gt;
+&lt;p&gt;And yeah, someone please give me a job, it&amp;rsquo;s all fun and games until I can no longer pay for my snacks. Boy&amp;rsquo;s hungry, boy gotta eat.&lt;/p&gt;
+&lt;p&gt;See ya.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>What a Year Ahead</title>
         <link>https://genstud.netlify.app/p/what-a-year-ahead/</link>
         <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
         
         <guid>https://genstud.netlify.app/p/what-a-year-ahead/</guid>
-        <description>&lt;img src="https://genstud.netlify.app/p/what-a-year-ahead/zaksheuskaya.jpg" alt="Featured image of post What a Year Ahead" /&gt;&lt;p&gt;Although it may seem that I&amp;rsquo;m referring to the current COVID-19 situation, this is actually a post on how I&amp;rsquo;ve decided to ruin my life once and for all with everything I&amp;rsquo;d like to know by the end of the year. Seems like a heck of a long shot now that I&amp;rsquo;m reading this again, but let this boy dream. Below some stuff I&amp;rsquo;m studying now and something that&amp;rsquo;s planned for the future.&lt;/p&gt;
+        <description>&lt;img src="https://genstud.netlify.app/p/what-a-year-ahead/zaksheuskaya.jpg" alt="Featured image of post What a Year Ahead" /&gt;&lt;p&gt;Although it may seem that I&amp;rsquo;m referring to the current COVID-19 situation, this is actually a post on how I&amp;rsquo;ve decided to ruin my life once and for all, with everything I&amp;rsquo;d like to know by the end of the year. Seems like a heck of a long shot now that I&amp;rsquo;m reading this again, but let this boy dream. Below some stuff I&amp;rsquo;m studying now and something that&amp;rsquo;s planned for the future.&lt;/p&gt;
 &lt;h1 id=&#34;hit-em-with-the-nested-list&#34;&gt;Hit &amp;lsquo;em with the Nested List&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Courses I&amp;rsquo;m currently taking
@@ -36,7 +110,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;whats-cooking&#34;&gt;What&amp;rsquo;s cooking?&lt;/h2&gt;
-&lt;p&gt;These are courses I&amp;rsquo;ve chosen to start with, two of them are actually thought through and well planned. Third one&amp;rsquo;s just an impulse and probably the least needed at this point (aka the ML one). But what can you do, when your brain goes rouge and decides on its own, if not following it?&lt;/p&gt;
+&lt;p&gt;These are courses I&amp;rsquo;ve chosen to start with, two of them are actually thought through and well planned. Third one&amp;rsquo;s just an impulse and probably the least needed at this point (aka the ML one). But what can you do when your brain goes rouge and decides on its own, if not following it?&lt;/p&gt;
 &lt;h3 id=&#34;genomic-data-science&#34;&gt;Genomic Data Science&lt;/h3&gt;
 &lt;p&gt;I won&amp;rsquo;t redirect to the website of the Master&amp;rsquo;s program simply &amp;lsquo;cause it&amp;rsquo;s only in Italian and I don&amp;rsquo;t think will be that helpful, unless you wanna see google translate fail miserably. Also, I won&amp;rsquo;t get into much detail here because I have a post coming out exactly on this topic, not because I&amp;rsquo;m lazy.  It&amp;rsquo;s a two years commitment just like any other master, nothing fancy, lots of statistics. Various modules and courses that can hint you what it means to be a data scientist working on genomics, ranging from regression models and genomic epidemiology to statistics for genomics and bioinformatics applied to big data. Oh yeah, and a never-ending internship that&amp;rsquo;ll make you regret your life&amp;rsquo;s choices.&lt;/p&gt;
 &lt;h3 id=&#34;r-for-data-sciencehttpsr4dshadconzindexhtml&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://r4ds.had.co.nz/index.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -72,20 +146,29 @@ Third course&amp;rsquo;s the previous one but on steroids.&lt;br&gt;
 Lastly, the fourth one, is all about publishing visualizations with Shiny and Flexdashboard. We going fancy fam.&lt;/p&gt;
 &lt;h3 id=&#34;statistics-for-genomic-data-science-on-courserahttpswwwcourseraorglearnstatistical-genomicsspecializationgenomic-data-science&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.coursera.org/learn/statistical-genomics?specialization=genomic-data-science&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Statistics for Genomic Data Science on Coursera&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;This is a course that I&amp;rsquo;d consider borderline between field-specific biology and multi-purpose statistics. The reason is that, through the course, most of the statistics that are being taught are pretty much all the time applied to genomics and are case-specific. I&amp;rsquo;ll take this hoping that it&amp;rsquo;d cement my knowledge on exploratory data analysis, normalization, preprocessing, clustering and modeling for genomics. Also, in the last module they give you common pipelines for RNA/ChiP-seq, DNA methylation studies, and GWAS. Who am I to refuse this?&lt;/p&gt;
+&lt;p&gt;This is a course that I&amp;rsquo;d consider borderline between field-specific biology and multi-purpose statistics. The reason is that, through the course, most of the statistics that are being taught are pretty much all the time applied to genomics and are case-specific. I&amp;rsquo;ll take this hoping that it&amp;rsquo;d cement my knowledge on exploratory data analysis, normalization, preprocessing, clustering and modeling for genomics.&lt;br&gt;
+Also, in the last module they give you common pipelines for RNA/ChiP-seq, DNA methylation studies, and GWAS. Who am I to refuse this?&lt;/p&gt;
 &lt;h3 id=&#34;statistical-inference-and-modeling-for-high-throughput-experiments-on-edxhttpswwwedxorgcoursestatistical-inference-and-modeling-for-high-throug&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.edx.org/course/statistical-inference-and-modeling-for-high-throug&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Statistical Inference and Modeling for High-throughput Experiments on edX&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;This definitely will be the hardest one, mostly &amp;lsquo;cause of statistics overload. It&amp;rsquo;ll either bend me or break me, and there&amp;rsquo;s no going back. This is my public statement of commitment. The course focuses on a variety of statistical topics, ranging from multiple testing, error rate controls, false discovery rates to statistical modeling and Bayesian statistics. I know, from the very beginning, that this will cause a stupid amount of pain, but what really hurts is that, deep down, I know that I need this. You can&amp;rsquo;t run around the Genomics playground making your own statistics up. You gotta learn this. I gotta learn this. So, off I go, I guess.&lt;/p&gt;
+&lt;p&gt;This definitely will be the hardest one, mostly &amp;lsquo;cause of statistics overload. It&amp;rsquo;ll either bend me or break me, and there&amp;rsquo;s no going back. This is my public statement of commitment. The course focuses on a variety of statistical topics, ranging from multiple testing, error rate controls, false discovery rates to statistical modeling and Bayesian statistics.&lt;br&gt;
+I know, from the very beginning, that this will cause a stupid amount of pain, but what really hurts is that, deep down, I know that I need this. You can&amp;rsquo;t run around the Genomics playground making your own statistics up. You gotta learn this. I gotta learn this. So, off I go, I guess.&lt;/p&gt;
 &lt;h3 id=&#34;high-dimensional-data-analysis-on-edxhttpswwwedxorgcoursehigh-dimensional-data-analysis&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.edx.org/course/high-dimensional-data-analysis&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;High dimensional Data Analysis on edX&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;This is the first integration to the scRNA-seq course from CSC and provided by HarvardX on the &lt;a class=&#34;link&#34; href=&#34;https://www.edx.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;edX&lt;/a&gt; platform. This course revolves around concepts like mathematical distance, dimensionality reduction and singular value decomposition (SVC), and principal component analysis(PCA). Other modules that I find appealing are how to deal with batch effects, heatmaps and clustering, while I&amp;rsquo;m probably dropping the intro to machine learning also provided by them. I have nothing funny to say about this, sorry.&lt;/p&gt;
+    &gt;edX&lt;/a&gt; platform. This course revolves around concepts like mathematical distance, dimensionality reduction, singular value decomposition (SVC), and principal component analysis(PCA).&lt;br&gt;
+Other modules that I find appealing are how to deal with batch effects, heatmaps and clustering, while I&amp;rsquo;m probably dropping the intro to machine learning also provided by them. I have nothing funny to say about this, sorry.&lt;/p&gt;
 &lt;h3 id=&#34;case-studies-in-functional-genomics-on-edxhttpswwwedxorgcoursecase-studies-in-functional-genomicsindexproductqueryided6c49ffde7ddfe8c8787c6239463e95position1&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.edx.org/course/case-studies-in-functional-genomics?index=product&amp;amp;queryID=ed6c49ffde7ddfe8c8787c6239463e95&amp;amp;position=1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Case Studies in Functional Genomics on edX&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;I&amp;rsquo;ll probably take this one at the same time as the High Dimensional Data analysis, giving the fact this is focusing especially on the analysis of RNA-seq, DNA methylation and ChiP-seq data. Also, it&amp;rsquo;s gonna give a basic understanding of how reads are being mapped to the reference genome and how to assess the quality of NextGen data. Basically, NextGen data will become your best friend.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll probably take this one at the same time as the High Dimensional Data analysis, giving the fact this is focusing especially on the analysis of RNA-seq, DNA methylation and ChiP-seq data. Also, it&amp;rsquo;s gonna give a basic understanding of how reads are being mapped to the reference genome and how to assess the quality of NextGen data.&lt;br&gt;
+Basically, NextGen data will become your best friend.&lt;/p&gt;
 &lt;h3 id=&#34;harvardx-biomedical-data-science-open-online-traininghttprafalabgithubiopagesharvardxhtml&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://rafalab.github.io/pages/harvardx.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;HarvardX Biomedical Data Science Open Online Training&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;I&amp;rsquo;m gonna make this quick, there&amp;rsquo;s this GitHub repo that&amp;rsquo;s been made from this book, [hard copy here] (&lt;a href=&#34;https://www.amazon.com/Data-Analysis-Life-Sciences-R/dp/1498775675/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1500332088&amp;amp;sr=1-1),&#34;&gt;https://www.amazon.com/Data-Analysis-Life-Sciences-R/dp/1498775675/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1500332088&amp;amp;sr=1-1),&lt;/a&gt; or maybe is the other way around, and it&amp;rsquo;s divided into three sections: Data Analysis for the Life Sciences, Genomics Data Analysis and Using Python for Research. While the Python section is a hard pass (even though at some point I gotta learn that sneaky little brat), the others look super interesting even if they&amp;rsquo;re most likely repeating some stuff. As a general integration to the other courses, they seem appropriate.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m gonna make this quick, there&amp;rsquo;s this GitHub repo that&amp;rsquo;s been made from this book, &lt;a class=&#34;link&#34; href=&#34;https://www.amazon.com/Data-Analysis-Life-Sciences-R/dp/1498775675/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1500332088&amp;amp;sr=1-1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hard copy here&lt;/a&gt;, or maybe is the other way around, and it&amp;rsquo;s divided into three sections: &lt;a class=&#34;link&#34; href=&#34;http://rafalab.github.io/pages/harvardx.html#series_1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Data Analysis for the Life Sciences&lt;/a&gt;, &lt;a class=&#34;link&#34; href=&#34;http://rafalab.github.io/pages/harvardx.html#series_2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Genomics Data Analysis&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;http://rafalab.github.io/pages/harvardx.html#python&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Using Python for Research&lt;/a&gt;.&lt;br&gt;
+While the Python section is a hard pass (even though at some point I gotta learn that sneaky little brat), the others look super interesting even if they&amp;rsquo;re most likely repeating some stuff. As a general integration to the other courses, they seem appropriate.&lt;/p&gt;
 &lt;h3 id=&#34;sql-for-data-science-on-courserahttpswwwcourseraorglearnsql-for-data-sciencespecializationlearn-sql-basics-data-science&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.coursera.org/learn/sql-for-data-science?specialization=learn-sql-basics-data-science&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;SQL for data science on Coursera&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Well, there&amp;rsquo;s not much to say here, you can&amp;rsquo;t work in any data science-related field without knowing a wee bit of SQL.&lt;/p&gt;

@@ -3,24 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://genstud.netlify.app/tags/blog/</loc>
-    <lastmod>2021-03-15T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://genstud.netlify.app/categories/test/</loc>
-    <lastmod>2021-03-15T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://genstud.netlify.app/categories/</loc>
-    <lastmod>2021-03-15T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://genstud.netlify.app/tags/courses/</loc>
-    <lastmod>2021-03-15T00:00:00+00:00</lastmod>
+    <loc>https://genstud.netlify.app/tags/data-science/</loc>
+    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://genstud.netlify.app/categories/mastdeg/</loc>
+    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://genstud.netlify.app/p/genomic-data-science/</loc>
+    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://genstud.netlify.app/</loc>
-    <lastmod>2021-03-15T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://genstud.netlify.app/tags/masters-degree/</loc>
+    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://genstud.netlify.app/post/</loc>
-    <lastmod>2021-03-15T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://genstud.netlify.app/tags/</loc>
+    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://genstud.netlify.app/tags/courses/</loc>
     <lastmod>2021-03-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://genstud.netlify.app/p/what-a-year-ahead/</loc>

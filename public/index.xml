@@ -6,7 +6,55 @@
         <description>Recent content on GenStud</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 22 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Data Preprocessing for Machine Learning </title>
+        <link>https://genstud.netlify.app/p/data-preprocessing-for-machine-learning/</link>
+        <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://genstud.netlify.app/p/data-preprocessing-for-machine-learning/</guid>
+        <description>
+&lt;script src=&#34;https://genstud.netlify.app/p/data-preprocessing-for-machine-learning/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;This post is based on the &lt;a href=&#34;link&#34;&gt;copy and paste Machine learning&lt;/a&gt; course on &lt;a href=&#34;link&#34;&gt;Udemy&lt;/a&gt; that I’m taking. It’s a general introduction to the most used and known machine learning algorithms. This is the first chapter and a non-negotiable step not only for machine learning but also for every data analysis. This’ll be a blend of concepts introduced in the course and other personal considerations to make it more complete. There few general steps to take into account:
+(nested list)
+1) Understanding which variables are dependent and independent
+2) Load the data and ponder whether you should impute or remove missing data
+3) Encode categorical variables miss interpreted by R and re-encode them as binary
+4) Splitting dataset into training and test set
+5) Feature Scaling with Standardization or Normalization.&lt;/p&gt;
+&lt;div id=&#34;dependent-or-independent&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Dependent or Independent&lt;/h2&gt;
+&lt;p&gt;Well, there’s no way to proceed forward with any machine learning model if no dependent and independent variables are identified. There shouldn’t be the need to explain this but what we’re trying to do is to find a relationship between the independent variable and the dependent variable so that we can observe how one can influence the other.
+Sometimes it’s pretty clear who’s dependent and who’s independent, but many times it takes a bit of prior knowledge/thinking to correctly identify who’s who.
+Also, and we’re talking more in-depth about that when we’re seeing regression models, not every independent variable has the same effect on the dependent, and their role needs to be assessed.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;to-impute-or-not-impute&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;To impute or not impute?&lt;/h2&gt;
+&lt;p&gt;Dealing with missing data can be a real pain in the ass. Though it’s a crucial step, too often it’s treated as “yo, delete missing values and go on” and that can ruin your analysis. Whether to impute or delete missing values it’s an intricated topic that requires a lot of critical thinking and it’s also highly case dependent.&lt;br /&gt;
+First of all, let’s import the data set.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dataset
+      Country Age Salary Purchased
+   1   France  44  72000        No
+   2    Spain  27  48000       Yes
+   3  Germany  30  54000        No
+   4    Spain  38  61000        No
+   5  Germany  40     NA       Yes
+   6   France  35  58000       Yes
+   7    Spain  NA  52000        No
+   8   France  48  79000       Yes
+   9  Germany  50  83000        No
+   10  France  37  67000       Yes&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dataset$Age = ifelse(is.na(dataset$Age),
+                     ave(dataset$Age, FUN = function(x) mean(x, na.rm = TRUE)),
+                     dataset$Age)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dataset$Country = factor(dataset$Country,
+                         levels = c(&amp;#39;France&amp;#39;, &amp;#39;Spain&amp;#39;, &amp;#39;Germany&amp;#39;),
+                         labels = c(1, 2, 3))&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
         <title>Genomic Data Science</title>
         <link>https://genstud.netlify.app/p/genomic-data-science/</link>
         <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>

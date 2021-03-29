@@ -5,6 +5,16 @@
     <link>https://genstud.netlify.app/categories/test2/</link>
     <description>Recent content in Machine Learning on GenStud</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://genstud.netlify.app/categories/test2/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/categories/test2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Preprocessing for Machine Learning </title>
+      <link>https://genstud.netlify.app/p/data-preprocessing-for-machine-learning/</link>
+      <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://genstud.netlify.app/p/data-preprocessing-for-machine-learning/</guid>
+      <description>This post is based on the copy and paste Machine learning course on Udemy that I’m taking. It’s a general introduction to the most used and known machine learning algorithms. This is the first chapter and a non-negotiable step not only for machine learning but also for every data analysis. This’ll be a blend of concepts introduced in the course and other personal considerations to make it more complete.</description>
+    </item>
+    
   </channel>
 </rss>

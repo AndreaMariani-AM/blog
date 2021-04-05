@@ -12,28 +12,22 @@
         <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
         
         <guid>https://genstud.netlify.app/p/data-preprocessing-for-machine-learning/</guid>
-        <description>
+        <description>&lt;img src="https://genstud.netlify.app/p/data-preprocessing-for-machine-learning/pexels-squeeb-creative.jpg" alt="Featured image of post Data Preprocessing for Machine Learning " /&gt;
 &lt;script src=&#34;https://genstud.netlify.app/p/data-preprocessing-for-machine-learning/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;p&gt;This post is based on the &lt;a href=&#34;link&#34;&gt;copy and paste Machine learning&lt;/a&gt; course on &lt;a href=&#34;link&#34;&gt;Udemy&lt;/a&gt; that I’m taking. It’s a general introduction to the most used and known machine learning algorithms. This is the first chapter and a non-negotiable step not only for machine learning but also for every data analysis. This’ll be a blend of concepts introduced in the course and other personal considerations to make it more complete. There few general steps to take into account:
-(nested list)
-1) Understanding which variables are dependent and independent
-2) Load the data and ponder whether you should impute or remove missing data
-3) Encode categorical variables miss interpreted by R and re-encode them as binary
-4) Splitting dataset into training and test set
-5) Feature Scaling with Standardization or Normalization.&lt;/p&gt;
-&lt;div id=&#34;dependent-or-independent&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Dependent or Independent&lt;/h2&gt;
-&lt;p&gt;Well, there’s no way to proceed forward with any machine learning model if no dependent and independent variables are identified. There shouldn’t be the need to explain this but what we’re trying to do is to find a relationship between the independent variable and the dependent variable so that we can observe how one can influence the other.
-Sometimes it’s pretty clear who’s dependent and who’s independent, but many times it takes a bit of prior knowledge/thinking to correctly identify who’s who.
-Also, and we’re talking more in-depth about that when we’re seeing regression models, not every independent variable has the same effect on the dependent, and their role needs to be assessed.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;to-impute-or-not-impute&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;To impute or not impute?&lt;/h2&gt;
-&lt;p&gt;Dealing with missing data can be a real pain in the ass. Though it’s a crucial step, too often it’s treated as “yo, delete missing values and go on” and that can ruin your analysis. Whether to impute or delete missing values it’s an intricated topic that requires a lot of critical thinking and it’s also highly case dependent.&lt;br /&gt;
-First of all, let’s import the data set.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dataset
+&lt;p&gt;This post is based on the &lt;a href=&#34;https://www.udemy.com/course/machinelearning/&#34;&gt;Machine Learning A-Z™: Hands-on Python &amp;amp; R In Data Science&lt;/a&gt; course on Udemy that i’m taking.
+It’s a general introduction to the most used and known machine learning algorithms. This is the first chapter and a non-negotiable step not only for machine learning but also for every data analysis.&lt;/p&gt;
+&lt;p&gt;This’ll be a blend of concepts introduced in the course and other personal considerations to make it more complete. There few general steps to take into account&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Understanding which variables are dependent and independent&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Load the data and ponder whether you should impute or remove missing data&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Encode categorical variables miss interpreted by R and re-encode them as binary&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Splitting dataset into training and test set&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Feature Scaling with Standardization or Normalization&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;First of all, let’s import the data set.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dataset1
       Country Age Salary Purchased
    1   France  44  72000        No
    2    Spain  27  48000       Yes
@@ -45,12 +39,93 @@ First of all, let’s import the data set.&lt;/p&gt;
    8   France  48  79000       Yes
    9  Germany  50  83000        No
    10  France  37  67000       Yes&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dataset$Age = ifelse(is.na(dataset$Age),
-                     ave(dataset$Age, FUN = function(x) mean(x, na.rm = TRUE)),
-                     dataset$Age)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dataset$Country = factor(dataset$Country,
+&lt;p&gt;Well, there’s no way to proceed forward with any machine learning model if no dependent and independent variables are identified.&lt;/p&gt;
+&lt;p&gt;There shouldn’t be the need to explain this but what we’re trying to do is to find a relationship between the independent variable and the dependent variable so that we can observe how one can influence the other.&lt;/p&gt;
+&lt;p&gt;Sometimes it’s pretty clear who’s dependent and who’s independent, but many times it takes a bit of prior knowledge/thinking to correctly identify who’s who.&lt;/p&gt;
+&lt;p&gt;Also, and we’re talking more in-depth about that when we’re seeing regression models, not every independent variable has the same effect on the dependent, and their role needs to be assessed.&lt;/p&gt;
+&lt;p&gt;Dealing with missing data can be a real pain in the ass. Though it’s a crucial step, too often it’s treated as “yo, delete missing values and go on” and that can ruin your analysis.&lt;/p&gt;
+&lt;p&gt;Whether to impute or delete missing values it’s an intricated topic that requires a lot of critical thinking and it’s also highly case dependent.&lt;/p&gt;
+&lt;p&gt;This removes all missing data (NAs).&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dataset1 &amp;lt;- na.omit(dataset1)
+dataset1
+      Country Age Salary Purchased
+   1   France  44  72000        No
+   2    Spain  27  48000       Yes
+   3  Germany  30  54000        No
+   4    Spain  38  61000        No
+   6   France  35  58000       Yes
+   8   France  48  79000       Yes
+   9  Germany  50  83000        No
+   10  France  37  67000       Yes&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let’s say that we’ve decided we’re going with data deletion, there’re a couple of general rules we have to take into account when doing it. Again, it’s highly dependent on your specific case but we can at least agree on something.&lt;/p&gt;
+&lt;p&gt;The amount of data that’s missing should be as low as possible and the whole dataset should have enough observation. Unfortunately, there’re no clear guidelines on what’s the acceptable number of missing data related to the size of the dataset.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If a whole observation has missing data for every variable, we can take into consideration the removal of the observation (optimal if these missing observations represent a casual subgroup of the whole group).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If a variable has missing data for every observation, we can take into consideration the removal of the variable (not if the variable is fundamental for our analysis).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Both methods should be pondered seriously and both suffer from the risk of inducing a &lt;strong&gt;Selection Bias&lt;/strong&gt;, ’cause we gotta understand the underlying mechanism that’s generated the missing values.&lt;/p&gt;
+&lt;p&gt;If there’s a reason why those values are missing we could completely misdirect the analysis and unconsciously select a group that’s not representative of the whole population.&lt;/p&gt;
+&lt;p&gt;If the missing values are randomly distributed, removing them might cause the loss of too much info and therefore might be safer to impute them.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;md.pattern(dataset2)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://genstud.netlify.app/p/data-preprocessing-for-machine-learning/index.en_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;     Country Purchased Age Salary  
+   8       1         1   1      1 0
+   1       1         1   1      0 1
+   1       1         1   0      1 1
+           0         0   1      1 2&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;See what’s the pattern of missing data and then impute them&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tempData &amp;lt;- mice(dataset2,m=5,meth=&amp;#39;pmm&amp;#39;,seed=500)
+completedData &amp;lt;- complete(tempData,1)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can decide to impute data using the mean and &lt;code&gt;mice&lt;/code&gt; package.&lt;/p&gt;
+&lt;p&gt;If you decide imputing data is the road you wanna go with, next step it’s to assess how to impute data. For short, imputing means to substitute missing data with new alternatives that’re coherent/plausible, obtained from the dataset or external sources, or both.&lt;/p&gt;
+&lt;p&gt;The idea is to reduce the distortion introduced by missing data to the lowest degree possible. Ofc they have their fair share of disadvantages, ’cause we are considering our imputed data as “true observations”. The underlying idea is to preserve statistical accuracy.&lt;/p&gt;
+&lt;p&gt;There are different ways to impute data, and all have to be considered based on the internal characteristics of the dataset, but we can summarize them as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Imputing the mean (reduces internal variance)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Imputing the median&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Hot deck imputation&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Imputation through EM (expectation-maximization)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Another useful way to do it is through the function &lt;code&gt;ifelse&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dataset3$Age = ifelse(is.na(dataset3$Age),
+                     ave(dataset3$Age, FUN = function(x) mean(x, na.rm = TRUE)),
+                     dataset3$Age)
+dataset3$Salary = ifelse(is.na(dataset3$Salary),
+                     ave(dataset3$Salary, FUN = function(x) mean(x, na.rm = TRUE)),
+                     dataset3$Salary)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Another thing we gotta keep in mind is that R most of the time misinterprets the class of some data and it needs to be fixed.&lt;/p&gt;
+&lt;p&gt;To do so, we need to convert categorical data that’s been interpreted as numeric to factor, and encode strings of characters to numbers to be able to feed them to machine learning algorithms.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dataset3$Country = factor(dataset3$Country,
                          levels = c(&amp;#39;France&amp;#39;, &amp;#39;Spain&amp;#39;, &amp;#39;Germany&amp;#39;),
-                         labels = c(1, 2, 3))&lt;/code&gt;&lt;/pre&gt;
+                         labels = c(1, 2, 3))
+dataset3
+      Country      Age   Salary Purchased
+   1        1 44.00000 72000.00        No
+   2        2 27.00000 48000.00       Yes
+   3        3 30.00000 54000.00        No
+   4        2 38.00000 61000.00        No
+   5        3 40.00000 63777.78       Yes
+   6        1 35.00000 58000.00       Yes
+   7        2 38.77778 52000.00        No
+   8        1 48.00000 79000.00       Yes
+   9        3 50.00000 83000.00        No
+   10       1 37.00000 67000.00       Yes&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It’s time to split the data into training and test set, and we’re gonna use a package called &lt;code&gt;caTools&lt;/code&gt; that allows us to split the samples given a variable.&lt;/p&gt;
+&lt;p&gt;We’re also setting a seed to allow reproducibility of results.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set.seed(123)
+split = sample.split(dataset3$Salary, SplitRatio = 0.8)
+training_set = subset(dataset3, split == TRUE)
+test_set = subset(dataset3, split == FALSE)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Usually, a good split ratio is around 75/80 % allowing for enough data to train the model and enough data to test it.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;training_set = scale(training_set)
+test_set = scale(test_set)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Feature scaling is usually done when two variables are not on the same scale and therefore is impossible to predict values. This happens because one variable completely dominates the other.&lt;/p&gt;
+&lt;p&gt;Some packages by default apply a scaling factor (through Standardization or Normalization).
+If feature scaling is needed, this will do the trick.&lt;/p&gt;
+&lt;p&gt;That was it, a quick intro to data preprocessing for machine learning algorithms.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;carbon.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Carbon Code&lt;/p&gt;
 &lt;/div&gt;
 </description>
         </item>

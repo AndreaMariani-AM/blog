@@ -1,0 +1,106 @@
+---
+title: Simple Linear Regression and Polynomial Linear Regression
+author: R package build
+date: '2021-04-05'
+slug: simple-linear-regression-and-polynomial-linear-regression
+categories: 
+  - Test2
+tags: 
+ - Machine Learning
+ - Blog
+ - Data Science
+ - Regression
+description: Some info on Linear Regression and Polynomial Regression
+image: pexels-eberhard-grossgasteiger-2088205.jpg
+math: true
+license: ~
+hidden: no
+comments: yes
+---
+
+<script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
+
+
+<p>In this post, we’ll talk about <strong>Simple Linear Regression</strong> and <strong>Polynomial Linear Regression</strong>. These two represent the backbone for linear and continuous regressions.</p>
+<p>There’s also <strong>Multiple Linear Regression</strong> but it requires a small chat about model building, so it’ll be the content for a future post.</p>
+<p><a href="https://www.youtube.com/watch?v=2VTYuHaL_sk">First things first</a>, let’s dive deep into what is Regression. Regression can be defined as a set of statistical processes that are trying to estimate the relationship between a dependent variable and one or more independent variables, creating a model that best fits the data.</p>
+<p>We’ll discuss more about what “best fit” means in a moment.</p>
+<p>Today, it’s often used as a way to predict the value of a dependent variable, given an independent variable.</p>
+<p>We can roughly divide Regression into Linear and Non-Linear Regression, and today we’ll focus on the linear (and continuous) ones.</p>
+<p><span class="math display">\[ y_i = \beta_0 + \beta_1 x_i + \epsilon_i \]</span></p>
+<p>This is the model that represents a Simple Linear Regression and it’s a straight line that fits the data, where <span class="math inline">\(y\)</span> is the dependent variable, <span class="math inline">\(x\)</span> is the independent variable, and <span class="math inline">\(\beta_0\)</span> and <span class="math inline">\(\beta_1\)</span> are regression coefficients that measure the relationship between <span class="math inline">\(y\)</span> and <span class="math inline">\(x\)</span> .</p>
+<p><span class="math inline">\(\beta_0\)</span> is a constant and represents where the line crosses the vertical axis, while <span class="math inline">\(\beta_1\)</span> represents the slope of the line.
+<span class="math inline">\(\epsilon_i\)</span> is a disturbance error or error variable that helps model the relationship between <span class="math inline">\(y\)</span> and <span class="math inline">\(x\)</span> adding an unobservable “noise”.</p>
+<p>When we talk about <em>model that best fits the data</em> we’re referring to the way the algorithm for Linear Regression builds the model. In other non-scientific words, given data points in a scatterplot, what is the line that best represents the data or best adapts to the data and how can we obtain it?</p>
+<p>There are all different kinds of methods for data fitting, and for Linear Regression the Least Squares method represents the standard approach.</p>
+<p>Basically, it draws an <span class="math inline">\(n\)</span> number of lines that fits the data (aka goes through them), and for each line, it calculates <strong>the sum of squared residuals</strong> where the residual is the difference between the observed values <span class="math inline">\(y\)</span> and the fitted value <span class="math inline">\(\hat{y}\)</span> that’s provided by the model.</p>
+<p><span class="math display">\[ \sum\limits_{i=1}^{n}(y_i – \hat{y}_1)^2 = min \]</span></p>
+<p>Every time, the algorithm tries to minimize this <code>sum</code> and it stops when it’s no longer able to minimize it and that’s the model or the line that best fits the data.</p>
+<p>Before building a Linear Regression Model, some assumptions need checking.</p>
+<ol style="list-style-type: decimal">
+<li>Linearity</li>
+<li>Homoscedasticity</li>
+<li>Multivariate Normality</li>
+<li>Independence of Errors</li>
+<li>Lack of Multicollinearity</li>
+</ol>
+<p>We won’t talk about this ’cause there’s no time and I’m getting tired of typing on the keyboard, and plus we still gotta see how to build a model in R. And oh gosh, the Polynomial Regression, we need to check out that one too, almost forgot. Gotta move here, chop chop mf.</p>
+<p>Let’s see how we can build a simple Linear Regression Model. Dataset used are very small and just for article’s sake.</p>
+<pre class="r"><code># Trying to predict the Salary based on Years of Experience
+regressor = lm(formula = Salary ~ YearsExperience,
+               data = training_set)</code></pre>
+<p>You can call <code>summary(regressor)</code> to look at coefficients.</p>
+<p>Now let’s visualize the Regressor, where the <code>blue</code> line represents our regressor and the <code>red</code> points
+represent datapoints.</p>
+<pre class="r"><code>plot_training &lt;- ggplot() +
+  geom_point(aes(x = training_set$YearsExperience, y = training_set$Salary),
+             colour = &#39;red&#39;) +
+  geom_line(aes(x = training_set$YearsExperience, y = predict(regressor, newdata = training_set)),
+            colour = &#39;blue&#39;) +
+  ggtitle(&#39;Salary vs Experience (Training set)&#39;) +
+  xlab(&#39;Years of experience&#39;) +
+  ylab(&#39;Salary&#39;)
+
+plot_test &lt;- ggplot() +
+  geom_point(aes(x = test_set$YearsExperience, y = test_set$Salary),
+             colour = &#39;red&#39;) +
+  geom_line(aes(x = training_set$YearsExperience, y = predict(regressor, newdata = training_set)),
+            colour = &#39;blue&#39;) +
+  ggtitle(&#39;Salary vs Experience (Test set)&#39;) +
+  xlab(&#39;Years of experience&#39;) +
+  ylab(&#39;Salary&#39;)</code></pre>
+<p><img src="{{< blogdown/postref >}}index.en_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p>Ok now let’s talk about Polynomial Linear Regression</p>
+<p><span class="math display">\[ y_i = \beta_0 + \beta_1 x_i + \beta_2 x_1^{2} + \cdots + \beta_n x_1^{n} + \epsilon_i \]</span></p>
+<p>Let’s address the elephant in the room, how’s this even linear? Well, Although it fits a nonlinear model to the data, as far as we’re concerned, as a statistical estimation problem it is linear, in the sense that the regression function is linear in the unknown parameters that are estimated from the data. For this reason, it’s also considered a special case of Multiple Linear Regression.</p>
+<p>Confusing much? We’ll circle back to this when talking Multiple Linear Regression.</p>
+<p>To explain this concept in other words, we can say that a Polynomial Regression Model is composed of one independent variable and additional independent variables that are polynomial terms of the first independent variable.</p>
+<p>Let’s see what it looks like. We’ll build both a Linear Regressor and Polynomial Regressor for the same dataset to compare them and see how they are able to predict values.</p>
+<pre class="r"><code># Simple Linear Regressor Model
+lin_reg &lt;- lm(formula = Salary ~ Level,
+              data = dataset1)</code></pre>
+<pre class="r"><code># Polynomial Regressor Model
+poly_reg &lt;- lm(formula = Salary ~ .,
+               data = dataset2)</code></pre>
+<p>Now let’s plot them and see how they behaves</p>
+<pre class="r"><code>plot_lin &lt;- dataset1 %&gt;%
+  ggplot() +
+  geom_point(mapping = aes(x = Level, y = Salary), color = &quot;red&quot;) +
+  geom_line(mapping = aes(x = Level, y = predict(lin_reg, newdata = dataset1)), color = &quot;blue&quot;) +
+  ggtitle(&quot;linear Regressor&quot;) +
+  xlab(&quot;Level&quot;) +
+  ylab(&quot;Salary&quot;)
+
+plot_poly &lt;- dataset2 %&gt;%
+  ggplot() +
+  geom_point(mapping = aes(x = Level, y = Salary), color = &quot;red&quot;) +
+  geom_line(mapping = aes(x = Level, y = predict(poly_reg, newdata = dataset2)), color = &quot;blue&quot;) +
+  ggtitle(&quot;Polynomial Regressor&quot;) +
+  xlab(&quot;Level&quot;) +
+  ylab(&quot;Salary&quot;) </code></pre>
+<p><img src="{{< blogdown/postref >}}index.en_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+<p>That was it, hope you enjoyed that.</p>
+<div class="figure">
+<img src="carbon.png" alt="" />
+<p class="caption">Carbon</p>
+</div>

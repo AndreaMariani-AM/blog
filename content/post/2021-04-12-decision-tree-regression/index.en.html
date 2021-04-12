@@ -1,0 +1,120 @@
+---
+title: Decision Tree Regression
+author: R package build
+date: '2021-04-12'
+slug: decision-tree-regression
+categories: 
+ - Test2
+tags: 
+ - Machine Learning
+ - Blog
+ - Data Science
+ - Decision Tree
+ - Regression
+description: Decision Tree Regression discussion with code
+image: pawel-czerwinski-U1vCHP__C44-unsplash.jpg
+math: true
+license: ~
+hidden: no
+comments: yes
+---
+
+<script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
+
+
+<p>We’re looking at nonlinear and noncontinuous models for regression in this post.</p>
+<p>Let’s introduce <strong>CART</strong> and what that is. <strong>CART</strong> ’s an umbrella term that stands for <strong>Classification And Regression Tree</strong> and therefore comprises <strong>Classification Trees</strong>, used in another type of machine learning models (i.e. Classification), and <strong>Regression Tree</strong> used in Regression models.</p>
+<p>We’ll talk about the latter in this post. A Regression Tree is one of the two Decision Trees used in data mining and machine learning and it’s used when the outcome/value we’re predicting is a continuous variable(not a “class” like the Classification one).</p>
+<p>Now, we’re gonna explain how this algorithm works in the simplest way possible, aka the only way my brain can handle it.</p>
+<p>It starts by creating a <strong>Root Node</strong> which is basically the starting point from a given data set. The <strong>Root Node</strong> is then split into subsets based on some features and the process is repeated again and again (technical term of “again and again” is <strong>Recursive Partitioning</strong>) until some conditions are met.</p>
+<p>Every node leads to a leaf (Tree huh) which is labeled either with a class or a probability distribution, and that leaf leads you to another node.</p>
+<p>The process stops when it can no longer add value to the newly created leaf and the number of splits and their values are determined by the algorithm (look up “Information Entropy” should you wish to do so).</p>
+<p>And that’s pretty much it, it’s like walking down a street and turn left and right based on some inputs. At every node a “question” will be prompted, something along the line with “is x less this”, “is x this or that” and following down that path you’ll end up in a <strong>Terminal Leaf</strong> which will yield the output, be it a number or a class.</p>
+<p>Talking more about data and numbers, given a 2 dimensional dataset with two independent variables <span class="math inline">\(x_1\)</span> and <span class="math inline">\(x_2\)</span>, the dependent variable <span class="math inline">\(y\)</span> will be predicted based on <span class="math inline">\(x_1\)</span> and <span class="math inline">\(x_2\)</span> values.</p>
+<p>Starting from the <strong>Root Node</strong>, <span class="math inline">\(y\)</span> will go through the <strong>Decision Tree</strong> until it lands in a Terminal Leaf where its value will be computed based on the average of all the other observations that are in that leaf.</p>
+<p>Using a single <strong>Regression Tree</strong> ain’t the best idea, its bigger buzz kill is that ain’t a robust method, as even a small change in the data used to train it, can result in a huge change in the final prediction.</p>
+<p>But here is where <strong>Ensemble Learning</strong> comes in clutch. <strong>Random Forest Regression</strong>, which is a version of Ensemble Learning, allows us to bypass the internal variability of a <strong>Regression Tree Model</strong> and use an on steroid version of that model.</p>
+<p>Lastly, I think its bigger advantage comes from using a <strong>White Box Model</strong> that’s easily explainable by Boolean Logic. White and Black box models are super interesting btw, so maybe we’ll talk more about them.</p>
+<p>Now let’s see some code.</p>
+<pre class="r"><code># Importing the dataset
+dataset = read.csv(&#39;Position_Salaries.csv&#39;)
+dataset = dataset[2:3]</code></pre>
+<p>Here we’re just loading in the dataset and selecting our independent variable (Level, as in the Level that corresponds to a position in the company x) and dependent variable (Salary that’s associated with that Level).</p>
+<p>There’s no need for feature scaling ’cause the model is built on conditions on the independent variable and doesn’t rely on Euclidian Distances.</p>
+<pre class="r"><code># Building the model
+regressor &lt;- rpart(formula = Salary ~ .,
+                   data = dataset)
+
+# Predicting a Level that&#39;s not in the dataset
+y_pred = predict(regressor, data.frame(Level = 6.5))</code></pre>
+<p>This is how we’re building the model, there are lots and lots of parameters that can be tweaked, but for now, we’re just sticking to the basics.</p>
+<p>One thing’s extremely important here and that’s the parameter <code>control</code>, explicitly left out here.</p>
+<p>That prediction is off, and when plotted we can see how no sense it is.</p>
+<pre class="r"><code>ggplot() +
+  geom_point(aes(x = dataset$Level, y = dataset$Salary),
+             colour = &#39;red&#39;) +
+  geom_line(aes(x = dataset$Level, y = predict(regressor, newdata = dataset)),
+            colour = &#39;blue&#39;) +
+  ggtitle(&#39;Decison Tree Regression&#39;) +
+  xlab(&#39;Level&#39;) +
+  ylab(&#39;Salary&#39;)</code></pre>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-4"></span>
+<img src="{{< blogdown/postref >}}index.en_files/figure-html/unnamed-chunk-4-1.png" alt="Decision Tree Regression, No Control Parameter" width="672" />
+<p class="caption">
+Figure 1: Decision Tree Regression, No Control Parameter
+</p>
+</div>
+<p>Something’s wrong here. The model here is just a straight line, not what we would expect as a <strong>Decision Tree</strong>; though in reality, that’s our <strong>Decision Tree</strong>, just an awful one.</p>
+<p>We’re missing the parameter that defines splits and conditions on the independent variable. To set this, we can use the parameter <code>control</code> as an argument and call the <code>rpart.control()</code> function from <code>rpart</code> package.</p>
+<pre class="r"><code># adding the &quot;control&quot; parameter
+regressor &lt;- rpart(formula = Salary ~ .,
+                   data = dataset,
+                   control = rpart.control(minsplit = 1))
+# Plotting again
+ggplot() +
+  geom_point(aes(x = dataset$Level, y = dataset$Salary),
+             colour = &#39;red&#39;) +
+  geom_line(aes(x = dataset$Level, y = predict(regressor, newdata = dataset)),
+            colour = &#39;blue&#39;) +
+  ggtitle(&#39;Decison Tree Regression&#39;) +
+  xlab(&#39;Level&#39;) +
+  ylab(&#39;Salary&#39;)</code></pre>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-5"></span>
+<img src="{{< blogdown/postref >}}index.en_files/figure-html/unnamed-chunk-5-1.png" alt="Decison Tree Regression, Low Resolution" width="672" />
+<p class="caption">
+Figure 2: Decison Tree Regression, Low Resolution
+</p>
+</div>
+<p>This plot still’s off, isn’t it? We can see the regressor is kinda linear kinda not, but also kinda Polynomial even though the regressor is broken down into segments. So why is that? Well, the problem here lies in the noncontinuity of the model, and this visualization can’t fully represent our model.</p>
+<p>To make the visualization better, a higher resolution and a smoother curve are needed.</p>
+<pre class="r"><code>x_grid = seq(min(dataset$Level), max(dataset$Level), 0.01)
+ggplot() +
+  geom_point(aes(x = dataset$Level, y = dataset$Salary),
+             colour = &#39;red&#39;) +
+  geom_line(aes(x = x_grid, y = predict(regressor, newdata = data.frame(Level = x_grid))),
+            colour = &#39;blue&#39;) +
+  ggtitle(&#39;Decison Tree Regression&#39;) +
+  xlab(&#39;Level&#39;) +
+  ylab(&#39;Salary&#39;)</code></pre>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-6"></span>
+<img src="{{< blogdown/postref >}}index.en_files/figure-html/unnamed-chunk-6-1.png" alt="Decison Tree Regression, High Resolution" width="672" />
+<p class="caption">
+Figure 3: Decison Tree Regression, High Resolution
+</p>
+</div>
+<p>Better huh? looks more like a decent one. What we’ve done here is create an <code>x_grid</code> for the <span class="math inline">\(x\)</span> argument of the <code>geom_line</code> aesthetic, so for every <strong>Level</strong> in the dataset, with a 0.01 resolution, a <span class="math inline">\(y\)</span> value is predicted through the model.</p>
+<pre class="r"><code>fit &lt;- regressor &lt;- rpart(formula = Salary ~ .,
+                   data = dataset,
+                   control = rpart.control(minsplit = 1))
+rpart.plot(fit, main = &quot;Decision Tree&quot;)</code></pre>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-7"></span>
+<img src="{{< blogdown/postref >}}index.en_files/figure-html/unnamed-chunk-7-1.png" alt="Decision Tree" width="672" />
+<p class="caption">
+Figure 4: Decision Tree
+</p>
+</div>
+<p>Just in case you need to plot the <strong>Tree</strong> and see what the splits were.</p>
+<div class="figure">
+<img src="Carbon.png" alt="" />
+<p class="caption">Carbon Figure</p>
+</div>

@@ -6,7 +6,18 @@
     <description>Recent content in Blog on GenStud</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple Linear Regression and Polynomial Linear Regression</title>
+      <link>https://genstud.netlify.app/p/simple-linear-regression-and-polynomial-linear-regression/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://genstud.netlify.app/p/simple-linear-regression-and-polynomial-linear-regression/</guid>
+      <description>In this post, we’ll talk about Simple Linear Regression and Polynomial Linear Regression. These two represent the backbone for linear and continuous regressions.
+There’s also Multiple Linear Regression but it requires a small chat about model building, so it’ll be the content for a future post.
+First things first, let’s dive deep into what is Regression. Regression can be defined as a set of statistical processes that are trying to estimate the relationship between a dependent variable and one or more independent variables, creating a model that best fits the data.</description>
+    </item>
+    
     <item>
       <title>Data Preprocessing for Machine Learning </title>
       <link>https://genstud.netlify.app/p/data-preprocessing-for-machine-learning/</link>

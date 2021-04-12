@@ -6,7 +6,102 @@
         <description>Recent content on GenStud</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Simple Linear Regression and Polynomial Linear Regression</title>
+        <link>https://genstud.netlify.app/p/simple-linear-regression-and-polynomial-linear-regression/</link>
+        <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://genstud.netlify.app/p/simple-linear-regression-and-polynomial-linear-regression/</guid>
+        <description>&lt;img src="https://genstud.netlify.app/p/simple-linear-regression-and-polynomial-linear-regression/pexels-eberhard-grossgasteiger-2088205.jpg" alt="Featured image of post Simple Linear Regression and Polynomial Linear Regression" /&gt;
+&lt;script src=&#34;https://genstud.netlify.app/p/simple-linear-regression-and-polynomial-linear-regression/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;In this post, we’ll talk about &lt;strong&gt;Simple Linear Regression&lt;/strong&gt; and &lt;strong&gt;Polynomial Linear Regression&lt;/strong&gt;. These two represent the backbone for linear and continuous regressions.&lt;/p&gt;
+&lt;p&gt;There’s also &lt;strong&gt;Multiple Linear Regression&lt;/strong&gt; but it requires a small chat about model building, so it’ll be the content for a future post.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=2VTYuHaL_sk&#34;&gt;First things first&lt;/a&gt;, let’s dive deep into what is Regression. Regression can be defined as a set of statistical processes that are trying to estimate the relationship between a dependent variable and one or more independent variables, creating a model that best fits the data.&lt;/p&gt;
+&lt;p&gt;We’ll discuss more about what “best fit” means in a moment.&lt;/p&gt;
+&lt;p&gt;Today, it’s often used as a way to predict the value of a dependent variable, given an independent variable.&lt;/p&gt;
+&lt;p&gt;We can roughly divide Regression into Linear and Non-Linear Regression, and today we’ll focus on the linear (and continuous) ones.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[ y_i = \beta_0 + \beta_1 x_i + \epsilon_i \]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This is the model that represents a Simple Linear Regression and it’s a straight line that fits the data, where &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; is the dependent variable, &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; is the independent variable, and &lt;span class=&#34;math inline&#34;&gt;\(\beta_0\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\beta_1\)&lt;/span&gt; are regression coefficients that measure the relationship between &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; .&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\beta_0\)&lt;/span&gt; is a constant and represents where the line crosses the vertical axis, while &lt;span class=&#34;math inline&#34;&gt;\(\beta_1\)&lt;/span&gt; represents the slope of the line.
+&lt;span class=&#34;math inline&#34;&gt;\(\epsilon_i\)&lt;/span&gt; is a disturbance error or error variable that helps model the relationship between &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; adding an unobservable “noise”.&lt;/p&gt;
+&lt;p&gt;When we talk about &lt;em&gt;model that best fits the data&lt;/em&gt; we’re referring to the way the algorithm for Linear Regression builds the model. In other non-scientific words, given data points in a scatterplot, what is the line that best represents the data or best adapts to the data and how can we obtain it?&lt;/p&gt;
+&lt;p&gt;There are all different kinds of methods for data fitting, and for Linear Regression the Least Squares method represents the standard approach.&lt;/p&gt;
+&lt;p&gt;Basically, it draws an &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; number of lines that fits the data (aka goes through them), and for each line, it calculates &lt;strong&gt;the sum of squared residuals&lt;/strong&gt; where the residual is the difference between the observed values &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; and the fitted value &lt;span class=&#34;math inline&#34;&gt;\(\hat{y}\)&lt;/span&gt; that’s provided by the model.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[ \sum\limits_{i=1}^{n}(y_i – \hat{y}_1)^2 = min \]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Every time, the algorithm tries to minimize this &lt;code&gt;sum&lt;/code&gt; and it stops when it’s no longer able to minimize it and that’s the model or the line that best fits the data.&lt;/p&gt;
+&lt;p&gt;Before building a Linear Regression Model, some assumptions need checking.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Linearity&lt;/li&gt;
+&lt;li&gt;Homoscedasticity&lt;/li&gt;
+&lt;li&gt;Multivariate Normality&lt;/li&gt;
+&lt;li&gt;Independence of Errors&lt;/li&gt;
+&lt;li&gt;Lack of Multicollinearity&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We won’t talk about this ’cause there’s no time and I’m getting tired of typing on the keyboard, and plus we still gotta see how to build a model in R. And oh gosh, the Polynomial Regression, we need to check out that one too, almost forgot. Gotta move here, chop chop mf.&lt;/p&gt;
+&lt;p&gt;Let’s see how we can build a simple Linear Regression Model. Dataset used are very small and just for article’s sake.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Trying to predict the Salary based on Years of Experience
+regressor = lm(formula = Salary ~ YearsExperience,
+               data = training_set)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can call &lt;code&gt;summary(regressor)&lt;/code&gt; to look at coefficients.&lt;/p&gt;
+&lt;p&gt;Now let’s visualize the Regressor, where the &lt;code&gt;blue&lt;/code&gt; line represents our regressor and the &lt;code&gt;red&lt;/code&gt; points
+represent datapoints.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot_training &amp;lt;- ggplot() +
+  geom_point(aes(x = training_set$YearsExperience, y = training_set$Salary),
+             colour = &amp;#39;red&amp;#39;) +
+  geom_line(aes(x = training_set$YearsExperience, y = predict(regressor, newdata = training_set)),
+            colour = &amp;#39;blue&amp;#39;) +
+  ggtitle(&amp;#39;Salary vs Experience (Training set)&amp;#39;) +
+  xlab(&amp;#39;Years of experience&amp;#39;) +
+  ylab(&amp;#39;Salary&amp;#39;)
+
+plot_test &amp;lt;- ggplot() +
+  geom_point(aes(x = test_set$YearsExperience, y = test_set$Salary),
+             colour = &amp;#39;red&amp;#39;) +
+  geom_line(aes(x = training_set$YearsExperience, y = predict(regressor, newdata = training_set)),
+            colour = &amp;#39;blue&amp;#39;) +
+  ggtitle(&amp;#39;Salary vs Experience (Test set)&amp;#39;) +
+  xlab(&amp;#39;Years of experience&amp;#39;) +
+  ylab(&amp;#39;Salary&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://genstud.netlify.app/p/simple-linear-regression-and-polynomial-linear-regression/index.en_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Ok now let’s talk about Polynomial Linear Regression&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[ y_i = \beta_0 + \beta_1 x_i + \beta_2 x_1^{2} + \cdots + \beta_n x_1^{n} + \epsilon_i \]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Let’s address the elephant in the room, how’s this even linear? Well, Although it fits a nonlinear model to the data, as far as we’re concerned, as a statistical estimation problem it is linear, in the sense that the regression function is linear in the unknown parameters that are estimated from the data. For this reason, it’s also considered a special case of Multiple Linear Regression.&lt;/p&gt;
+&lt;p&gt;Confusing much? We’ll circle back to this when talking Multiple Linear Regression.&lt;/p&gt;
+&lt;p&gt;To explain this concept in other words, we can say that a Polynomial Regression Model is composed of one independent variable and additional independent variables that are polynomial terms of the first independent variable.&lt;/p&gt;
+&lt;p&gt;Let’s see what it looks like. We’ll build both a Linear Regressor and Polynomial Regressor for the same dataset to compare them and see how they are able to predict values.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Simple Linear Regressor Model
+lin_reg &amp;lt;- lm(formula = Salary ~ Level,
+              data = dataset1)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Polynomial Regressor Model
+poly_reg &amp;lt;- lm(formula = Salary ~ .,
+               data = dataset2)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now let’s plot them and see how they behaves&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot_lin &amp;lt;- dataset1 %&amp;gt;%
+  ggplot() +
+  geom_point(mapping = aes(x = Level, y = Salary), color = &amp;quot;red&amp;quot;) +
+  geom_line(mapping = aes(x = Level, y = predict(lin_reg, newdata = dataset1)), color = &amp;quot;blue&amp;quot;) +
+  ggtitle(&amp;quot;linear Regressor&amp;quot;) +
+  xlab(&amp;quot;Level&amp;quot;) +
+  ylab(&amp;quot;Salary&amp;quot;)
+
+plot_poly &amp;lt;- dataset2 %&amp;gt;%
+  ggplot() +
+  geom_point(mapping = aes(x = Level, y = Salary), color = &amp;quot;red&amp;quot;) +
+  geom_line(mapping = aes(x = Level, y = predict(poly_reg, newdata = dataset2)), color = &amp;quot;blue&amp;quot;) +
+  ggtitle(&amp;quot;Polynomial Regressor&amp;quot;) +
+  xlab(&amp;quot;Level&amp;quot;) +
+  ylab(&amp;quot;Salary&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://genstud.netlify.app/p/simple-linear-regression-and-polynomial-linear-regression/index.en_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;That was it, hope you enjoyed that.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;carbon.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Carbon&lt;/p&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
         <title>Data Preprocessing for Machine Learning </title>
         <link>https://genstud.netlify.app/p/data-preprocessing-for-machine-learning/</link>
         <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>

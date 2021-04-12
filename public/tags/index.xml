@@ -6,11 +6,11 @@
     <description>Recent content in Tags on GenStud</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
       <link>https://genstud.netlify.app/tags/blog/</link>
-      <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://genstud.netlify.app/tags/blog/</guid>
       <description></description>
@@ -19,7 +19,7 @@
     <item>
       <title>Data Science</title>
       <link>https://genstud.netlify.app/tags/data-science/</link>
-      <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://genstud.netlify.app/tags/data-science/</guid>
       <description></description>
@@ -28,9 +28,18 @@
     <item>
       <title>Machine Learning</title>
       <link>https://genstud.netlify.app/tags/machine-learning/</link>
-      <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://genstud.netlify.app/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regression</title>
+      <link>https://genstud.netlify.app/tags/regression/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://genstud.netlify.app/tags/regression/</guid>
       <description></description>
     </item>
     

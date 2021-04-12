@@ -142,4 +142,4 @@ rpart.plot(fit, main = "Decision Tree")
 
 Just in case you need to plot the **Tree** and see what the splits were.
 
-![Carbon Figure](Carbon.png)
+![Carbon Figure](carbon.png)

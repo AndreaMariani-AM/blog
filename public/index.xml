@@ -6,7 +6,115 @@
         <description>Recent content on GenStud</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 12 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Decision Tree Regression</title>
+        <link>https://genstud.netlify.app/p/decision-tree-regression/</link>
+        <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://genstud.netlify.app/p/decision-tree-regression/</guid>
+        <description>&lt;img src="https://genstud.netlify.app/p/decision-tree-regression/pawel-czerwinski-U1vCHP__C44-unsplash.jpg" alt="Featured image of post Decision Tree Regression" /&gt;
+&lt;script src=&#34;https://genstud.netlify.app/p/decision-tree-regression/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;We’re looking at nonlinear and noncontinuous models for regression in this post.&lt;/p&gt;
+&lt;p&gt;Let’s introduce &lt;strong&gt;CART&lt;/strong&gt; and what that is. &lt;strong&gt;CART&lt;/strong&gt; ’s an umbrella term that stands for &lt;strong&gt;Classification And Regression Tree&lt;/strong&gt; and therefore comprises &lt;strong&gt;Classification Trees&lt;/strong&gt;, used in another type of machine learning models (i.e. Classification), and &lt;strong&gt;Regression Tree&lt;/strong&gt; used in Regression models.&lt;/p&gt;
+&lt;p&gt;We’ll talk about the latter in this post. A Regression Tree is one of the two Decision Trees used in data mining and machine learning and it’s used when the outcome/value we’re predicting is a continuous variable(not a “class” like the Classification one).&lt;/p&gt;
+&lt;p&gt;Now, we’re gonna explain how this algorithm works in the simplest way possible, aka the only way my brain can handle it.&lt;/p&gt;
+&lt;p&gt;It starts by creating a &lt;strong&gt;Root Node&lt;/strong&gt; which is basically the starting point from a given data set. The &lt;strong&gt;Root Node&lt;/strong&gt; is then split into subsets based on some features and the process is repeated again and again (technical term of “again and again” is &lt;strong&gt;Recursive Partitioning&lt;/strong&gt;) until some conditions are met.&lt;/p&gt;
+&lt;p&gt;Every node leads to a leaf (Tree huh) which is labeled either with a class or a probability distribution, and that leaf leads you to another node.&lt;/p&gt;
+&lt;p&gt;The process stops when it can no longer add value to the newly created leaf and the number of splits and their values are determined by the algorithm (look up “Information Entropy” should you wish to do so).&lt;/p&gt;
+&lt;p&gt;And that’s pretty much it, it’s like walking down a street and turn left and right based on some inputs. At every node a “question” will be prompted, something along the line with “is x less this”, “is x this or that” and following down that path you’ll end up in a &lt;strong&gt;Terminal Leaf&lt;/strong&gt; which will yield the output, be it a number or a class.&lt;/p&gt;
+&lt;p&gt;Talking more about data and numbers, given a 2 dimensional dataset with two independent variables &lt;span class=&#34;math inline&#34;&gt;\(x_1\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(x_2\)&lt;/span&gt;, the dependent variable &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; will be predicted based on &lt;span class=&#34;math inline&#34;&gt;\(x_1\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(x_2\)&lt;/span&gt; values.&lt;/p&gt;
+&lt;p&gt;Starting from the &lt;strong&gt;Root Node&lt;/strong&gt;, &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; will go through the &lt;strong&gt;Decision Tree&lt;/strong&gt; until it lands in a Terminal Leaf where its value will be computed based on the average of all the other observations that are in that leaf.&lt;/p&gt;
+&lt;p&gt;Using a single &lt;strong&gt;Regression Tree&lt;/strong&gt; ain’t the best idea, its bigger buzz kill is that ain’t a robust method, as even a small change in the data used to train it, can result in a huge change in the final prediction.&lt;/p&gt;
+&lt;p&gt;But here is where &lt;strong&gt;Ensemble Learning&lt;/strong&gt; comes in clutch. &lt;strong&gt;Random Forest Regression&lt;/strong&gt;, which is a version of Ensemble Learning, allows us to bypass the internal variability of a &lt;strong&gt;Regression Tree Model&lt;/strong&gt; and use an on steroid version of that model.&lt;/p&gt;
+&lt;p&gt;Lastly, I think its bigger advantage comes from using a &lt;strong&gt;White Box Model&lt;/strong&gt; that’s easily explainable by Boolean Logic. White and Black box models are super interesting btw, so maybe we’ll talk more about them.&lt;/p&gt;
+&lt;p&gt;Now let’s see some code.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Importing the dataset
+dataset = read.csv(&amp;#39;Position_Salaries.csv&amp;#39;)
+dataset = dataset[2:3]&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here we’re just loading in the dataset and selecting our independent variable (Level, as in the Level that corresponds to a position in the company x) and dependent variable (Salary that’s associated with that Level).&lt;/p&gt;
+&lt;p&gt;There’s no need for feature scaling ’cause the model is built on conditions on the independent variable and doesn’t rely on Euclidian Distances.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Building the model
+regressor &amp;lt;- rpart(formula = Salary ~ .,
+                   data = dataset)
+
+# Predicting a Level that&amp;#39;s not in the dataset
+y_pred = predict(regressor, data.frame(Level = 6.5))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is how we’re building the model, there are lots and lots of parameters that can be tweaked, but for now, we’re just sticking to the basics.&lt;/p&gt;
+&lt;p&gt;One thing’s extremely important here and that’s the parameter &lt;code&gt;control&lt;/code&gt;, explicitly left out here.&lt;/p&gt;
+&lt;p&gt;That prediction is off, and when plotted we can see how no sense it is.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot() +
+  geom_point(aes(x = dataset$Level, y = dataset$Salary),
+             colour = &amp;#39;red&amp;#39;) +
+  geom_line(aes(x = dataset$Level, y = predict(regressor, newdata = dataset)),
+            colour = &amp;#39;blue&amp;#39;) +
+  ggtitle(&amp;#39;Decison Tree Regression&amp;#39;) +
+  xlab(&amp;#39;Level&amp;#39;) +
+  ylab(&amp;#39;Salary&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-4&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://genstud.netlify.app/p/decision-tree-regression/index.en_files/figure-html/unnamed-chunk-4-1.png&#34; alt=&#34;Decision Tree Regression, No Control Parameter&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Decision Tree Regression, No Control Parameter
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Something’s wrong here. The model here is just a straight line, not what we would expect as a &lt;strong&gt;Decision Tree&lt;/strong&gt;; though in reality, that’s our &lt;strong&gt;Decision Tree&lt;/strong&gt;, just an awful one.&lt;/p&gt;
+&lt;p&gt;We’re missing the parameter that defines splits and conditions on the independent variable. To set this, we can use the parameter &lt;code&gt;control&lt;/code&gt; as an argument and call the &lt;code&gt;rpart.control()&lt;/code&gt; function from &lt;code&gt;rpart&lt;/code&gt; package.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# adding the &amp;quot;control&amp;quot; parameter
+regressor &amp;lt;- rpart(formula = Salary ~ .,
+                   data = dataset,
+                   control = rpart.control(minsplit = 1))
+# Plotting again
+ggplot() +
+  geom_point(aes(x = dataset$Level, y = dataset$Salary),
+             colour = &amp;#39;red&amp;#39;) +
+  geom_line(aes(x = dataset$Level, y = predict(regressor, newdata = dataset)),
+            colour = &amp;#39;blue&amp;#39;) +
+  ggtitle(&amp;#39;Decison Tree Regression&amp;#39;) +
+  xlab(&amp;#39;Level&amp;#39;) +
+  ylab(&amp;#39;Salary&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-5&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://genstud.netlify.app/p/decision-tree-regression/index.en_files/figure-html/unnamed-chunk-5-1.png&#34; alt=&#34;Decison Tree Regression, Low Resolution&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: Decison Tree Regression, Low Resolution
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;This plot still’s off, isn’t it? We can see the regressor is kinda linear kinda not, but also kinda Polynomial even though the regressor is broken down into segments. So why is that? Well, the problem here lies in the noncontinuity of the model, and this visualization can’t fully represent our model.&lt;/p&gt;
+&lt;p&gt;To make the visualization better, a higher resolution and a smoother curve are needed.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;x_grid = seq(min(dataset$Level), max(dataset$Level), 0.01)
+ggplot() +
+  geom_point(aes(x = dataset$Level, y = dataset$Salary),
+             colour = &amp;#39;red&amp;#39;) +
+  geom_line(aes(x = x_grid, y = predict(regressor, newdata = data.frame(Level = x_grid))),
+            colour = &amp;#39;blue&amp;#39;) +
+  ggtitle(&amp;#39;Decison Tree Regression&amp;#39;) +
+  xlab(&amp;#39;Level&amp;#39;) +
+  ylab(&amp;#39;Salary&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-6&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://genstud.netlify.app/p/decision-tree-regression/index.en_files/figure-html/unnamed-chunk-6-1.png&#34; alt=&#34;Decison Tree Regression, High Resolution&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 3: Decison Tree Regression, High Resolution
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Better huh? looks more like a decent one. What we’ve done here is create an &lt;code&gt;x_grid&lt;/code&gt; for the &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; argument of the &lt;code&gt;geom_line&lt;/code&gt; aesthetic, so for every &lt;strong&gt;Level&lt;/strong&gt; in the dataset, with a 0.01 resolution, a &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; value is predicted through the model.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;fit &amp;lt;- regressor &amp;lt;- rpart(formula = Salary ~ .,
+                   data = dataset,
+                   control = rpart.control(minsplit = 1))
+rpart.plot(fit, main = &amp;quot;Decision Tree&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-7&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://genstud.netlify.app/p/decision-tree-regression/index.en_files/figure-html/unnamed-chunk-7-1.png&#34; alt=&#34;Decision Tree&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 4: Decision Tree
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Just in case you need to plot the &lt;strong&gt;Tree&lt;/strong&gt; and see what the splits were.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;Carbon.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Carbon Figure&lt;/p&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
         <title>Simple Linear Regression and Polynomial Linear Regression</title>
         <link>https://genstud.netlify.app/p/simple-linear-regression-and-polynomial-linear-regression/</link>
         <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>

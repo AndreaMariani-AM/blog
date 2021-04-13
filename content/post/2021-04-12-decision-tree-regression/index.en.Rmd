@@ -25,7 +25,9 @@ knitr::opts_chunk$set(collapse = TRUE, echo=TRUE, eval=TRUE, warning=FALSE, mess
 
 We're looking at nonlinear and noncontinuous models for regression in this post.  
 
+
 Let's introduce **CART** and what that is. **CART** 's an umbrella term that stands for **Classification And Regression Tree** and therefore comprises **Classification Trees**, used in another type of machine learning models (i.e. Classification), and **Regression Tree** used in Regression models.  
+
 
 We'll talk about the latter in this post. A Regression Tree is one of the two Decision Trees used in data mining and machine learning and it's used when the outcome/value we're predicting is a continuous variable(not a "class" like the Classification one).  
 

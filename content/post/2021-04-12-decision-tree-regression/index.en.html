@@ -22,8 +22,10 @@ comments: yes
 <script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
 
 
+<p style="text-indent: 15px;">
 <p>We’re looking at nonlinear and noncontinuous models for regression in this post.</p>
 <p>Let’s introduce <strong>CART</strong> and what that is. <strong>CART</strong> ’s an umbrella term that stands for <strong>Classification And Regression Tree</strong> and therefore comprises <strong>Classification Trees</strong>, used in another type of machine learning models (i.e. Classification), and <strong>Regression Tree</strong> used in Regression models.</p>
+</p>
 <p>We’ll talk about the latter in this post. A Regression Tree is one of the two Decision Trees used in data mining and machine learning and it’s used when the outcome/value we’re predicting is a continuous variable(not a “class” like the Classification one).</p>
 <p>Now, we’re gonna explain how this algorithm works in the simplest way possible, aka the only way my brain can handle it.</p>
 <p>It starts by creating a <strong>Root Node</strong> which is basically the starting point from a given data set. The <strong>Root Node</strong> is then split into subsets based on some features and the process is repeated again and again (technical term of “again and again” is <strong>Recursive Partitioning</strong>) until some conditions are met.</p>

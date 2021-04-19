@@ -6,7 +6,73 @@
         <description>Recent content on GenStud</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 12 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 19 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://genstud.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Can We Even Appreciate How Big is 2 to the Power 256?</title>
+        <link>https://genstud.netlify.app/p/can-we-even-appreciate-how-big-is-2-to-the-power-256/</link>
+        <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://genstud.netlify.app/p/can-we-even-appreciate-how-big-is-2-to-the-power-256/</guid>
+        <description>&lt;img src="https://genstud.netlify.app/p/can-we-even-appreciate-how-big-is-2-to-the-power-256/pexels-dids-3530102.jpg" alt="Featured image of post Can We Even Appreciate How Big is 2 to the Power 256?" /&gt;&lt;h2 id=&#34;my-guilty-pleasure&#34;&gt;My Guilty Pleasure&lt;/h2&gt;
+&lt;p&gt;This post&amp;rsquo;s gonna be a little bit different. I wanted to share one of my biggest &lt;strong&gt;guilty pleasures&lt;/strong&gt;, and that is watching videos from &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;3Blue1Brown&lt;/a&gt;, specifically nerdy videos about numbers and maths. I have never been a huge fan of these topics, to be honest, but I&amp;rsquo;ve found out that watching his videos is kinda intriguing, and ofc very informative.&lt;/p&gt;
+&lt;p&gt;For those of you that ignore who &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;3Blue1Brown&lt;/a&gt; is, his names’ Grant Sanderson, and has a youtube channel where it combines math and entertainment.
+He makes a wide range of videos covering lots and lots of topics always trying to make abstract ideas more graspable.
+The video I want to focus on today is a particular one, and actually, it&amp;rsquo;s an appendix video of a longer one that tried to explain what cryptocurrencies are and how they work.
+What I want to do with this post is to summarize and report the examples used in the video to explain a single number.
+This is the video I&amp;rsquo;m talking &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=S9JGmA5_unY&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;about&lt;/a&gt;, and tries to answer the question &amp;ldquo;Yo ok, cryptos are cool, but how secure they are?&lt;/p&gt;
+&lt;h4 id=&#34;and-the-answer-to-that-is-2256&#34;&gt;And the answer to that is $2^256$.&lt;/h4&gt;
+&lt;h2 id=&#34;the-video&#34;&gt;The Video&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s give a bit of context before we dive into the analysis of that video, what&amp;rsquo;s $2^256$ ?. To make this as straightforward as possible, when doing transactions with cryptocurrencies, be them done virtually, a digital signature is required to authorize transactions. This digital signature changes every time and makes whatever we&amp;rsquo;re doing legit. But, given that digital signatures are composed of 256 bits characters that are combinations of 0s and 1s, shouldn&amp;rsquo;t we be able to somehow forge a signature?&lt;/p&gt;
+&lt;p&gt;And this question introduces the whole post, which is, &lt;strong&gt;How Stupidly Bad We Are at Understanding Big Numbers&lt;/strong&gt;.
+Since digital signatures are generated at random, a potential &lt;em&gt;crazy-cyber-son-of-a-gun&lt;/em&gt; thief has no better alternative than randomly generate combinations of 0s and 1s 256 bits long, to forge our signature. The guessed combination should be run through a &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Hash_function&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hash function&lt;/a&gt; that&amp;rsquo;ll yield a TRUE or FALSE statement. This is the process in a nutshell, you generate a combination of 0s and 1s, you test it with a hash function, the result will tell you if you&amp;rsquo;ve found the correct digital signature associated with that transaction.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Yeah ok, but how many combinations are there?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Well, on average, it&amp;rsquo;d require to generate and test $2^256$ combinations, and we can&amp;rsquo;t even try to understand how big of a number that is. It&amp;rsquo;s insane how our brains can&amp;rsquo;t even process or imagine something that big that we immediately lose grip on reality. It&amp;rsquo;s so far away from what we deal daily that&amp;rsquo;s hard to appreciate how stupid that number is.&lt;/p&gt;
+&lt;h2 id=&#34;the-number-itself&#34;&gt;The Number Itself&lt;/h2&gt;
+&lt;p&gt;&amp;ldquo;Yeah cool ok, big big number, ok. Now, give me something to work with so I can understand it a bit better&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ll exploit Grant&amp;rsquo;s video to put this in perspective and use numbers that we&amp;rsquo;re more familiar with. Now, I know I&amp;rsquo;ve just said &amp;ldquo;more familiar&amp;rdquo; but even with numbers like Billions, it&amp;rsquo;s still incredibly hard to grasp them and the orders of magnitude are blurry. Just for reference, 4 million seconds correspond to 46 days, 4 billion, on the other hand, are &lt;strong&gt;127 years&lt;/strong&gt;. First time I&amp;rsquo;ve heard this, I couldn&amp;rsquo;t understand how my deductions were so far off from the truth, I couldn&amp;rsquo;t understand why the gap between 4 million and 4 billion was that huge.&lt;/p&gt;
+&lt;p&gt;So, how secure is $2^256$?&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s start by breaking it down to a bit, $2^256$ is $2^32$ multiplied by itself 8 times. $2^32$ is slightly easier to imagine since it&amp;rsquo;s somewhere around 4 billion, so now we just need to appreciate what multiplying 4 billion by itself 8 times means. Let&amp;rsquo;s work with that and do a little thought experiment to give meaning to those numbers.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Imagine you&amp;rsquo;re the best hacker in the world, your super-specialized hash function is in place, your GPU is firing up and ready to parallelize the hash function.&lt;br&gt;
+A really good PC can probably run around 1 billion hash functions per second. But you the best one,  and you stuff your PC somehow with more GPUs, and boom, you&amp;rsquo;re up to 4 billion hashes per second (aka, 4 billion guesses per second). Let&amp;rsquo;s call it Big Ass Computer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Now pretend you&amp;rsquo;re a millionaire and you just bought Google. There are no public numbers regarding how many servers does Google have but rumors have it in the millions ballpark.&lt;br&gt;
+Since you&amp;rsquo;re a millionaire, you replace all of the existing crappy Google&amp;rsquo;s computers that are nowhere near your Big Ass Computer in terms of GPUs power, with a copy of your guessing beast.&lt;br&gt;
+And while you are at it, why not creating a thousand copies of this Google on steroid? Now, you up to 4 billion Big Ass Computers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Being so generous, you just gave to a bit more than half of the population on heart, 4 billion people, their personal super performing Google.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What if our galaxy had 4 billion copies of planet earth where 4 billion people have their own Google with 4 billion Big Ass Computers that can each generate and test 4 billion signatures every second?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;And what if, there were 4 billion copies of our galaxy? I know you&amp;rsquo;re losing it, hang in there.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;4 billion seconds? that&amp;rsquo;s about 127 years&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;And 4 billion times 127 is &lt;strong&gt;507 billion years&lt;/strong&gt;, which is roughly 37 times the age of our universe.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;So where I&amp;rsquo;m going with this? Even if you had 4 billion galaxies, each containing 4 billion copies of planet earth where each planet has 4 billion people equipped with their own personal Google comprising of 4 billion Big Ass Computers, running each 4 billion guesses every second, and you&amp;rsquo;d go on and on guessing for 37 times the age of the whole universe, you&amp;rsquo;d still only have a &lt;strong&gt;1 in a 4 billion chance&lt;/strong&gt; of finding the right guess and successfully forge a digital signature. That&amp;rsquo;s how big that number is.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;&amp;ldquo;Ok, cool. That&amp;rsquo;s a big number, but who cares?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t know, I think I do. First of all, I&amp;rsquo;m kinda sad for our imaginary hacker. I mean, all of the odds are against this poor guy.
+But mostly, I&amp;rsquo;ve found out that these weird numbers and probabilities, fascinate me. How two numbers that we&amp;rsquo;re familiar with, 2 and 256, can really make us wander through imaginary galaxies and computers, is incredible.
+With that being said, I&amp;rsquo;m waiting for the next &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;3Blue1Brown&lt;/a&gt; video, to blow my mind.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Decision Tree Regression</title>
         <link>https://genstud.netlify.app/p/decision-tree-regression/</link>
         <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
